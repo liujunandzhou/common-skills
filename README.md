@@ -8,19 +8,35 @@
 |---|---|---|---|
 | [pm-skills](https://github.com/phuryn/pm-skills) | `repo/pm-skills` (submodule) | v2.0.0 | 9 个 PM 插件,共 68 个 skill,覆盖产品发现、策略、执行、调研、数据分析、GTM、增长、工具箱、AI 交付 |
 | [effective-html](https://github.com/plannotator/effective-html) | `repo/effective-html` (submodule) | main | 3 个 skill(html / html-diagram / html-plan),生成自包含、带暗色模式的精致 HTML 制品 |
+| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | `repo/last30days-skill` (submodule) | v3.3.2 | 1 个 skill(last30days),跨 Reddit/X/YouTube/TikTok/HN 等多源研究某话题的近 30 天讨论 |
 
-> 共 **71 个 skill**。仓库根目录的 [`index.html`](index.html) 是项目介绍页,用 effective-html 的 `html` skill 生成。
+> 共 **72 个 skill**。仓库根目录的 [`index.html`](index.html) 是项目介绍页,用 effective-html 的 `html` skill 生成。
 
-## Clone
+## 安装(推荐用 install.sh)
 
-因为 skill 实体在 submodule 里,必须递归拉取,否则 `.claude/skills/` 下的软链接会指向空目录、skill 无法加载:
+clone 后跑一次 `install.sh`,它会自动初始化 submodule 并重建 `.claude/skills/`:
 
 ```bash
-git clone --recurse-submodules git@github.com:liujunandzhou/common-skills.git
-
-# 已经 clone 但漏了 submodule:
-git submodule update --init
+git clone https://github.com/liujunandzhou/common-skills.git
+cd common-skills
+./install.sh
 ```
+
+`install.sh` 会:
+1. `git submodule update --init --recursive`(即使你忘了 `--recurse-submodules` 也能补上);
+2. 按 `<pack>/.../skills/<name>/SKILL.md` 约定,把所有 skill 重建到 `.claude/skills/`;
+3. **默认软链接;若环境不支持(如 Windows)自动回退到复制**。可显式指定 `./install.sh --copy` 或 `./install.sh --symlink`。
+
+> **Windows 用户**:git 默认可能不还原软链接。直接跑 `./install.sh`(会自动用复制模式),或 `./install.sh --copy`,即可正常使用。
+
+手动方式(等价,仅 macOS/Linux):
+
+```bash
+git clone --recurse-submodules https://github.com/liujunandzhou/common-skills.git
+# 软链接已在仓库里,submodule 拉到即可用
+```
+
+> ⚠️ `last30days` 这个 skill 自带 Python 脚本和 API key 配置(见其目录内的 CONFIGURATION.md),链接通 ≠ 开箱即用,运行前需按其说明装依赖、配密钥。PM / HTML 类 skill 为纯 prompt,无额外依赖。
 
 ## 目录结构
 
