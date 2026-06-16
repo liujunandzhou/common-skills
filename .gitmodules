@@ -1,3 +1,6 @@
 [submodule "repo/pm-skills"]
 	path = repo/pm-skills
 	url = https://github.com/phuryn/pm-skills.git
+[submodule "repo/effective-html"]
+	path = repo/effective-html
+	url = https://github.com/plannotator/effective-html.git

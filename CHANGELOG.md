@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.2.0 (2026-06-16)
+
+### 新功能
+- 以 git submodule 方式引入 [effective-html](https://github.com/plannotator/effective-html),位于 `repo/effective-html`,并将其 3 个 skill(`html`、`html-diagram`、`html-plan`)软链接到 `.claude/skills/`。现共 71 个 skill。
+- 新增项目介绍页 `index.html`(用 effective-html 的 `html` skill 生成,自包含、带暗色模式)。
+
+### 文档
+- README「当前内容」表格补充 effective-html 一行,并标注 `index.html`。
+
 ## v0.1.0 (2026-06-16)
 
 首个版本。

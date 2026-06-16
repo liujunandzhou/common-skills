@@ -7,6 +7,9 @@
 | Skill 包 | 来源 | 版本 | 内容 |
 |---|---|---|---|
 | [pm-skills](https://github.com/phuryn/pm-skills) | `repo/pm-skills` (submodule) | v2.0.0 | 9 个 PM 插件,共 68 个 skill,覆盖产品发现、策略、执行、调研、数据分析、GTM、增长、工具箱、AI 交付 |
+| [effective-html](https://github.com/plannotator/effective-html) | `repo/effective-html` (submodule) | main | 3 个 skill(html / html-diagram / html-plan),生成自包含、带暗色模式的精致 HTML 制品 |
+
+> 共 **71 个 skill**。仓库根目录的 [`index.html`](index.html) 是项目介绍页,用 effective-html 的 `html` skill 生成。
 
 ## Clone
 

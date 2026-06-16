@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>common-skills — Claude Code skills 聚合仓库</title>
+<script>
+  /* apply theme before paint to avoid flash */
+  (function () {
+    try {
+      var t = localStorage.getItem("theme");
+      if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      if (t === "dark") document.documentElement.classList.add("dark");
+    } catch (e) {}
+  })();
+</script>
+<style>
+  :root {
+    --ivory:   #FAF9F5;
+    --paper:   #FFFFFF;
+    --slate:   #141413;
+    --clay:    #D97757;
+    --oat:     #E3DACC;
+    --olive:   #788C5D;
+    --sky:     #6A8CAF;
+    --gold:    #C2A83E;
+    --gray-150:#F0EEE6;
+    --gray-300:#D1CFC5;
+    --gray-500:#87867F;
+    --gray-700:#3D3D3A;
+    --line:    #D1CFC5;
+    --shadow:  0 1px 2px rgba(20,20,19,0.04);
+    --serif: ui-serif, Georgia, "Times New Roman", serif;
+    --sans:  system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+    --mono:  ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  html.dark {
+    --ivory:   #1A1A18;
+    --paper:   #232320;
+    --slate:   #F5F3EC;
+    --clay:    #E08E6F;
+    --oat:     #3A352B;
+    --olive:   #9DB07F;
+    --sky:     #8FAACB;
+    --gold:    #D6BC57;
+    --gray-150:#2A2A26;
+    --gray-300:#3D3D38;
+    --gray-500:#9A988E;
+    --gray-700:#CFCDC3;
+    --line:    #35352F;
+    --shadow:  0 1px 2px rgba(0,0,0,0.3);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--ivory);
+    color: var(--gray-700);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    padding: 56px 24px 120px;
+    transition: background 200ms ease, color 200ms ease;
+  }
+  .page {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 250px;
+    gap: 48px;
+  }
+  @media (max-width: 960px) { .page { grid-template-columns: 1fr; } aside { order: 2; position: static; } }
+
+  /* ── theme toggle ─────────────────────── */
+  .theme-toggle {
+    position: fixed;
+    top: 18px; right: 20px;
+    z-index: 50;
+    appearance: none;
+    border: 1.5px solid var(--gray-300);
+    background: var(--paper);
+    color: var(--gray-700);
+    border-radius: 8px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    padding: 7px 11px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: background 150ms, border-color 150ms;
+  }
+  .theme-toggle:hover { background: var(--gray-150); border-color: var(--gray-500); }
+
+  /* ── header ───────────────────────────── */
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gray-500);
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 34px;
+    color: var(--slate);
+    letter-spacing: -0.01em;
+    margin-bottom: 14px;
+  }
+  .lead { max-width: 660px; margin-bottom: 8px; font-size: 16px; }
+  .lead code { background: var(--gray-150); padding: 1px 5px; border-radius: 4px; }
+  h2 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--slate);
+    margin: 44px 0 14px;
+  }
+  p { margin-bottom: 12px; max-width: 680px; }
+  code { font-family: var(--mono); font-size: 13px; color: var(--slate); }
+  a { color: var(--clay); text-decoration: none; border-bottom: 1px solid transparent; }
+  a:hover { border-bottom-color: var(--clay); }
+
+  /* ── stat row ─────────────────────────── */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin: 24px 0 8px;
+  }
+  @media (max-width: 620px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+  .stat {
+    border: 1.5px solid var(--line);
+    border-radius: 12px;
+    background: var(--paper);
+    padding: 16px 18px;
+    box-shadow: var(--shadow);
+  }
+  .stat .num { font-family: var(--serif); font-size: 30px; color: var(--slate); line-height: 1; }
+  .stat .lbl { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gray-500); margin-top: 8px; }
+
+  /* ── flow diagram ─────────────────────── */
+  .flow {
+    border: 1.5px solid var(--line);
+    border-radius: 14px;
+    background: var(--paper);
+    padding: 26px 24px;
+    margin: 12px 0;
+    box-shadow: var(--shadow);
+  }
+  .flow svg { display: block; width: 100%; height: auto; }
+  .flow .box { fill: var(--gray-150); stroke: var(--gray-300); stroke-width: 1.5; }
+  .flow .box-accent { fill: rgba(217,119,87,0.10); stroke: var(--clay); stroke-width: 1.5; }
+  .flow .t-title { font-family: var(--mono); font-size: 12px; font-weight: 600; }
+  .flow .t-sub   { font-family: var(--mono); font-size: 10px; }
+  .flow .arrow { stroke: var(--gray-500); stroke-width: 1.5; fill: none; marker-end: url(#ah); }
+  .flow .arrow-lbl { font-family: var(--mono); font-size: 9.5px; fill: var(--gray-500); }
+  .fill-slate { fill: var(--slate); }
+  .fill-gray  { fill: var(--gray-500); }
+  .fill-clay  { fill: var(--clay); }
+
+  /* ── plugin cards ─────────────────────── */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 12px 0;
+  }
+  @media (max-width: 760px) { .cards { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px) { .cards { grid-template-columns: 1fr; } }
+  .card {
+    border: 1.5px solid var(--line);
+    border-radius: 11px;
+    background: var(--paper);
+    padding: 14px 15px;
+    box-shadow: var(--shadow);
+    transition: border-color 150ms, transform 150ms;
+  }
+  .card:hover { border-color: var(--clay); transform: translateY(-1px); }
+  .card .top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .card .name { font-family: var(--mono); font-size: 12.5px; color: var(--slate); font-weight: 600; }
+  .card .count { font-family: var(--mono); font-size: 11px; color: var(--clay); white-space: nowrap; }
+  .card .desc { font-size: 12.5px; color: var(--gray-500); margin-top: 6px; line-height: 1.5; }
+
+  .pack-label {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--gray-500);
+    margin: 26px 0 10px; display: flex; align-items: center; gap: 10px;
+  }
+  .pack-label::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+
+  /* ── code block ───────────────────────── */
+  pre {
+    background: var(--slate);
+    color: #E8E6DE;
+    border-radius: 12px;
+    padding: 18px 20px;
+    overflow-x: auto;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    line-height: 1.7;
+    margin: 12px 0;
+    max-width: 680px;
+  }
+  html.dark pre { background: #15140F; border: 1px solid var(--line); }
+  pre .c { color: #9A988E; }
+  pre .k { color: #E08E6F; }
+
+  .note {
+    border-left: 3px solid var(--clay);
+    background: rgba(217,119,87,0.07);
+    padding: 12px 16px;
+    border-radius: 0 8px 8px 0;
+    font-size: 13.5px;
+    max-width: 680px;
+    margin: 14px 0;
+  }
+
+  /* ── aside ────────────────────────────── */
+  aside {
+    position: sticky;
+    top: 32px;
+    align-self: start;
+    border: 1.5px solid var(--line);
+    border-radius: 12px;
+    background: var(--paper);
+    padding: 18px 18px 10px;
+    box-shadow: var(--shadow);
+  }
+  aside .label {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--gray-500); margin-bottom: 12px;
+  }
+  aside dl dt { font-family: var(--mono); font-size: 11.5px; color: var(--clay); margin-top: 0; }
+  aside dl dd { font-size: 12.5px; line-height: 1.5; color: var(--gray-700); margin: 3px 0 14px; }
+  aside dl dd code { font-size: 11.5px; }
+  .repo-link {
+    display: block; margin-top: 4px; font-family: var(--mono); font-size: 11.5px;
+    word-break: break-all;
+  }
+
+  footer { max-width: 680px; margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line);
+    font-size: 12px; color: var(--gray-500); font-family: var(--mono); }
+</style>
+</head>
+<body>
+
+<button class="theme-toggle" id="themeToggle" aria-label="切换主题">◐ theme</button>
+
+<div class="page">
+  <main>
+    <div class="eyebrow">Claude Code · skills 聚合仓库</div>
+    <h1>common-skills</h1>
+    <p class="lead">
+      把分散的外部 skill 包，以 <code>git submodule</code> 方式收进一个仓库，再通过
+      <code>.claude/skills/</code> 下的相对软链接暴露给项目里的 Claude Code 使用。
+      升级 submodule，软链接自动指向新版——<strong>装一次，跟着上游走</strong>。
+    </p>
+
+    <div class="stats">
+      <div class="stat"><div class="num">71</div><div class="lbl">可用 skill</div></div>
+      <div class="stat"><div class="num">2</div><div class="lbl">submodule 包</div></div>
+      <div class="stat"><div class="num">9</div><div class="lbl">PM 插件</div></div>
+      <div class="stat"><div class="num">0</div><div class="lbl">文件副本</div></div>
+    </div>
+
+    <h2>它是怎么工作的</h2>
+    <p>
+      skill 实体始终留在 submodule 里（<code>repo/</code> 下），不复制、不二次维护。
+      <code>.claude/skills/</code> 里每个条目只是一条相对软链接，指回 submodule 内部的 skill 目录。
+      Claude Code 扫描 <code>.claude/skills/</code> 时顺着链接读到 <code>SKILL.md</code>，skill 即可触发。
+    </p>
+
+    <div class="flow">
+      <svg viewBox="0 0 760 150" role="img" aria-label="submodule 到软链接到 Claude Code 的数据流">
+        <defs>
+          <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" class="fill-gray"></path>
+          </marker>
+        </defs>
+
+        <!-- box 1: submodule -->
+        <rect class="box" x="8" y="34" width="210" height="82" rx="10"></rect>
+        <text class="t-title fill-slate" x="26" y="62">repo/&lt;pack&gt;</text>
+        <text class="t-sub fill-gray" x="26" y="80">git submodule（上游仓库）</text>
+        <text class="t-sub fill-gray" x="26" y="98">.../skills/&lt;name&gt;/SKILL.md</text>
+
+        <!-- arrow 1 -->
+        <path class="arrow" d="M 222 75 L 286 75"></path>
+        <text class="arrow-lbl" x="232" y="66">symlink</text>
+
+        <!-- box 2: .claude/skills -->
+        <rect class="box box-accent" x="290" y="34" width="190" height="82" rx="10"></rect>
+        <text class="t-title fill-clay" x="308" y="62">.claude/skills/</text>
+        <text class="t-sub fill-gray" x="308" y="80">&lt;name&gt; →</text>
+        <text class="t-sub fill-gray" x="308" y="98">../../repo/&lt;pack&gt;/…</text>
+
+        <!-- arrow 2 -->
+        <path class="arrow" d="M 484 75 L 548 75"></path>
+        <text class="arrow-lbl" x="494" y="66">扫描</text>
+
+        <!-- box 3: claude code -->
+        <rect class="box" x="552" y="34" width="200" height="82" rx="10"></rect>
+        <text class="t-title fill-slate" x="570" y="62">Claude Code</text>
+        <text class="t-sub fill-gray" x="570" y="80">/&lt;skill&gt; 触发</text>
+        <text class="t-sub fill-gray" x="570" y="98">读取 SKILL.md + 资源</text>
+      </svg>
+    </div>
+
+    <h2>仓库里有什么</h2>
+
+    <div class="pack-label">pm-skills · v2.0.0 · 68 skills</div>
+    <div class="cards">
+      <div class="card"><div class="top"><span class="name">pm-execution</span><span class="count">16</span></div><div class="desc">PRD、OKR、路线图、迭代、复盘、用户故事、优先级框架</div></div>
+      <div class="card"><div class="top"><span class="name">pm-product-discovery</span><span class="count">13</span></div><div class="desc">点子/实验脑暴、假设识别与排序、机会-解决方案树、访谈</div></div>
+      <div class="card"><div class="top"><span class="name">pm-product-strategy</span><span class="count">12</span></div><div class="desc">愿景、策略、精益画布、商业模式、SWOT/PESTLE、波特五力、定价</div></div>
+      <div class="card"><div class="top"><span class="name">pm-market-research</span><span class="count">7</span></div><div class="desc">用户画像、市场细分、情感分析、竞品分析、旅程地图</div></div>
+      <div class="card"><div class="top"><span class="name">pm-go-to-market</span><span class="count">6</span></div><div class="desc">GTM 策略与打法、增长循环、滩头市场、理想客户画像</div></div>
+      <div class="card"><div class="top"><span class="name">pm-marketing-growth</span><span class="count">5</span></div><div class="desc">营销创意、北极星指标、定位、产品命名、价值主张文案</div></div>
+      <div class="card"><div class="top"><span class="name">pm-toolkit</span><span class="count">4</span></div><div class="desc">简历评审、NDA 起草、隐私政策、语法/行文检查</div></div>
+      <div class="card"><div class="top"><span class="name">pm-data-analytics</span><span class="count">3</span></div><div class="desc">SQL 生成、同期群分析、A/B 实验结果分析</div></div>
+      <div class="card"><div class="top"><span class="name">pm-ai-shipping</span><span class="count">2</span></div><div class="desc">意图 vs 实现差距审计、可交付物打包</div></div>
+    </div>
+
+    <div class="pack-label">effective-html · 3 skills</div>
+    <div class="cards">
+      <div class="card"><div class="top"><span class="name">html</span><span class="count">·</span></div><div class="desc">生成自包含、带暗色模式的精致 HTML 制品（就是本页用的）</div></div>
+      <div class="card"><div class="top"><span class="name">html-diagram</span><span class="count">·</span></div><div class="desc">HTML/SVG 图表与示意图</div></div>
+      <div class="card"><div class="top"><span class="name">html-plan</span><span class="count">·</span></div><div class="desc">HTML 形式的实施计划页</div></div>
+    </div>
+
+    <h2>怎么用</h2>
+    <p>因为 skill 实体在 submodule 里，clone 时必须递归拉取，否则软链接会指向空目录：</p>
+    <pre><span class="c"># clone 时带上 submodule</span>
+git clone <span class="k">--recurse-submodules</span> git@github.com:liujunandzhou/common-skills.git
+
+<span class="c"># 已经 clone 但漏了 submodule</span>
+git submodule update <span class="k">--init</span>
+
+<span class="c"># 升级某个 skill 包到上游最新</span>
+git submodule update <span class="k">--remote</span> repo/pm-skills</pre>
+
+    <div class="note">
+      在仓库里启动 Claude Code 后，<code>/reload-skills</code> 即可识别全部 71 个 skill，用
+      <code>/&lt;skill-name&gt;</code> 触发（例如 <code>/create-prd</code>、<code>/html</code>）。
+    </div>
+
+    <h2>再加一个 skill 包</h2>
+    <pre><span class="c"># 1. 作为 submodule 加到 repo/ 下</span>
+git submodule add &lt;repo-url&gt; repo/&lt;name&gt;
+
+<span class="c"># 2. 把其中的 skill 目录软链接到 .claude/skills/（相对路径）</span>
+cd .claude/skills
+for d in ../../repo/&lt;name&gt;/path/to/skills/*/; do
+  ln <span class="k">-sfn</span> "$d" "$(basename "$d")"
+done</pre>
+    <p style="font-size:13px; color:var(--gray-500);">
+      约束：<code>.claude/skills/</code> 下的目录名需全局唯一，避免跨包重名冲突。
+    </p>
+
+    <footer>
+      common-skills · 71 skills across 2 submodules · 本页由 effective-html 的 <code>html</code> skill 生成
+    </footer>
+  </main>
+
+  <aside>
+    <div class="label">速查</div>
+    <dl>
+      <dt>仓库</dt>
+      <dd><a class="repo-link" href="https://github.com/liujunandzhou/common-skills">github.com/liujunandzhou/<wbr>common-skills</a></dd>
+      <dt>结构</dt>
+      <dd><code>repo/</code> 放 submodule；<code>.claude/skills/</code> 放软链接</dd>
+      <dt>pm-skills</dt>
+      <dd><a href="https://github.com/phuryn/pm-skills">phuryn/pm-skills</a> · v2.0.0 · 68 skills</dd>
+      <dt>effective-html</dt>
+      <dd><a href="https://github.com/plannotator/effective-html">plannotator/effective-html</a> · 3 skills</dd>
+      <dt>更新</dt>
+      <dd><code>git submodule update --remote</code></dd>
+    </dl>
+  </aside>
+</div>
+
+<script>
+  var toggle = document.getElementById("themeToggle");
+  function label() {
+    var dark = document.documentElement.classList.contains("dark");
+    toggle.textContent = dark ? "☀ light" : "◐ dark";
+  }
+  label();
+  toggle.addEventListener("click", function () {
+    var dark = document.documentElement.classList.toggle("dark");
+    try { localStorage.setItem("theme", dark ? "dark" : "light"); } catch (e) {}
+    label();
+  });
+</script>
+</body>
+</html>
