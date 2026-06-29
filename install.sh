@@ -56,11 +56,17 @@ find "$SKILLS_DIR" -mindepth 1 -maxdepth 1 -exec rm -rf {} +
 
 count=0
 seen=""
-# 约定:skill 目录形如 repo/<pack>/.../skills/<name>/SKILL.md
+# 约定:收两种布局
+#   repo/<pack>/.../skills/<name>/SKILL.md  —— parent == skills(多 skill 的 pack)
+#   repo/<name>/SKILL.md                    —— parent == repo(SKILL.md 直接在 submodule 根)
+# 其余位置(如 references/ 里的 SKILL.md)忽略。
 for skillmd in $(find repo -type f -name SKILL.md | sort); do
   dir="$(dirname "$skillmd")"
   parent="$(basename "$(dirname "$dir")")"
-  [ "$parent" = "skills" ] || continue          # 只收 skills/<name>/ 这一层,忽略 references 等里的 SKILL.md
+  case "$parent" in
+    skills|repo) ;;
+    *) continue ;;
+  esac
   name="$(basename "$dir")"
 
   case " $seen " in

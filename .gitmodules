@@ -7,3 +7,15 @@
 [submodule "repo/last30days-skill"]
 	path = repo/last30days-skill
 	url = https://github.com/mvanhorn/last30days-skill.git
+[submodule "repo/codebase-to-course"]
+	path = repo/codebase-to-course
+	url = https://github.com/zarazhangrui/codebase-to-course.git
+[submodule "repo/frontend-slides"]
+	path = repo/frontend-slides
+	url = https://github.com/zarazhangrui/frontend-slides.git
+[submodule "repo/beautiful-feishu-whiteboard"]
+	path = repo/beautiful-feishu-whiteboard
+	url = https://github.com/zarazhangrui/beautiful-feishu-whiteboard.git
+[submodule "repo/beautiful-html-templates"]
+	path = repo/beautiful-html-templates
+	url = https://github.com/zarazhangrui/beautiful-html-templates.git
