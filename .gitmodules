@@ -19,3 +19,9 @@
 [submodule "repo/beautiful-html-templates"]
 	path = repo/beautiful-html-templates
 	url = https://github.com/zarazhangrui/beautiful-html-templates.git
+[submodule "repo/archify"]
+	path = repo/archify
+	url = https://github.com/tt-a1i/archify
+[submodule "repo/design.md"]
+	path = repo/design.md
+	url = https://github.com/google-labs-code/design.md
