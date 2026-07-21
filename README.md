@@ -4,13 +4,22 @@
 
 ## 当前内容
 
-| Skill 包 | 来源 | 版本 | 内容 |
-|---|---|---|---|
-| [pm-skills](https://github.com/phuryn/pm-skills) | `repo/pm-skills` (submodule) | v2.0.0 | 9 个 PM 插件,共 68 个 skill,覆盖产品发现、策略、执行、调研、数据分析、GTM、增长、工具箱、AI 交付 |
-| [effective-html](https://github.com/plannotator/effective-html) | `repo/effective-html` (submodule) | main | 3 个 skill(html / html-diagram / html-plan),生成自包含、带暗色模式的精致 HTML 制品 |
-| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | `repo/last30days-skill` (submodule) | v3.3.2 | 1 个 skill(last30days),跨 Reddit/X/YouTube/TikTok/HN 等多源研究某话题的近 30 天讨论 |
+| Skill 包 | 来源 | 内容 |
+|---|---|---|
+| [pm-skills](https://github.com/phuryn/pm-skills) | `repo/pm-skills` (submodule) | 9 个 PM 插件,共 68 个 skill,覆盖产品发现、策略、执行、调研、数据分析、GTM、增长、工具箱、AI 交付 |
+| [effective-html](https://github.com/plannotator/effective-html) | `repo/effective-html` (submodule) | 3 个 skill(html / html-diagram / html-plan),生成自包含、带暗色模式的精致 HTML 制品 |
+| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | `repo/last30days-skill` (submodule) | 1 个 skill(last30days),跨 Reddit/X/YouTube/TikTok/HN 等多源研究某话题的近 30 天讨论 |
+| [codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) | `repo/codebase-to-course` (submodule) | 1 个 skill(codebase-to-course),把代码库转成可交互的单页 HTML 教程 |
+| [frontend-slides](https://github.com/zarazhangrui/frontend-slides) | `repo/frontend-slides` (submodule) | 1 个 skill(frontend-slides),生成前端幻灯片 |
+| [beautiful-feishu-whiteboard](https://github.com/zarazhangrui/beautiful-feishu-whiteboard) | `repo/beautiful-feishu-whiteboard` (submodule) | 1 个 skill(beautiful-feishu-whiteboard),从 SVG 生成美观、可编辑的飞书画板 |
+| [archify](https://github.com/tt-a1i/archify) | `repo/archify` (submodule) | 1 个 skill(archify),生成架构/流程/时序/数据流图为独立 HTML |
+| lark-design-prototype | `repo/lark-design-prototype`(AgentBuddy,**非 submodule**,见下节) | 1 个 skill(lark-design-prototype),飞书风格网页/原型生成 |
+| [beautiful-html-templates](https://github.com/zarazhangrui/beautiful-html-templates) | `repo/beautiful-html-templates` (submodule) | 引用资源(**非 skill**):34 套 HTML 幻灯片模板库,详见 CLAUDE.md |
+| [design.md](https://github.com/google-labs-code/design.md) | `repo/design.md` (submodule) | 引用资源(**非 skill**):Google Labs 的 DESIGN.md 设计系统规范,详见 CLAUDE.md |
 
-> 共 **72 个 skill**。仓库根目录的 [`index.html`](index.html) 是项目介绍页,用 effective-html 的 `html` skill 生成。
+> 共 **77 个 skill**(前 8 个包;后 2 个是"引用资源",不进 `.claude/skills/`)。仓库根目录的 [`index.html`](index.html) 是项目介绍页,用 effective-html 的 `html` skill 生成。
+>
+> ⚠️ 已知项:`design.md` 内的示例目录带有 `.agents/skills/*/SKILL.md`,当前会被 `install.sh` 额外软链出 4 个 skill(`agent-dx-cli-scale` / `ink` / `tdd` / `typed-service-contracts`),属非预期,待后续从扫描中排除,故未计入上面的总数。
 
 ## 安装(推荐用 install.sh)
 

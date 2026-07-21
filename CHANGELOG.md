@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.4.0 (2026-07-21)
+
+### 新功能
+- 新增 5 个 skill:
+  - 4 个以 git submodule 引入:[codebase-to-course](https://github.com/zarazhangrui/codebase-to-course)、[frontend-slides](https://github.com/zarazhangrui/frontend-slides)、[beautiful-feishu-whiteboard](https://github.com/zarazhangrui/beautiful-feishu-whiteboard)、[archify](https://github.com/tt-a1i/archify)。
+  - 1 个来自字节内部 AgentBuddy 市场(`skills.byted.org/lark/universe_design` v1.0.4):`lark-design-prototype`,飞书风格网页/原型生成。它不在 GitHub,以**普通目录**而非 submodule vendored 在 `repo/lark-design-prototype/`,不进 `.gitmodules`。
+- 新增 2 个「引用资源」(非 skill,不在 `.claude/skills/`,需主动引用):
+  - [beautiful-html-templates](https://github.com/zarazhangrui/beautiful-html-templates) submodule —— 34 套 HTML 幻灯片模板库。
+  - [design.md](https://github.com/google-labs-code/design.md) submodule —— Google Labs 的 DESIGN.md 设计系统规范。
+- `install.sh` 新增第三种 skill 布局(`repo/<sub>/<name>/SKILL.md`,grandparent == repo),以支持 archify 的嵌套目录结构。
+
+### 文档
+- README「当前内容」表格补全全部 10 个包并更新 skill 总数;新增「非 submodule 来源的 vendored skill」小节,说明 lark-design-prototype 的来源与更新方式。
+- CLAUDE.md 标注 lark-design-prototype 为唯一非 submodule 的 vendored skill。
+
 ## v0.3.0 (2026-06-16)
 
 ### 新功能
