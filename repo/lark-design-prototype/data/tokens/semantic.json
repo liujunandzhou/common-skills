@@ -1,0 +1,4782 @@
+{
+  "primary.content.default": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.600}",
+      "dark": "{primary.pri.500}"
+    },
+    "$resolved": {
+      "light": "#1456f0",
+      "dark": "#4c88ff"
+    },
+    "$description": "Used for blue theme color content, such as text, linear icons, and outlines",
+    "$extensions": {
+      "id": "primary-content-default",
+      "name": "primary/content/default",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "primary.content.hover": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.500}",
+      "dark": "{primary.pri.400}"
+    },
+    "$resolved": {
+      "light": "#336df4",
+      "dark": "#3370eb"
+    },
+    "$description": "Used for blue theme color content in hover state, such as text, linear icons, and outlines",
+    "$extensions": {
+      "id": "primary-content-hover",
+      "name": "primary/content/hover",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "primary.content.pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.700}",
+      "dark": "{primary.pri.600}"
+    },
+    "$resolved": {
+      "light": "#0442d2",
+      "dark": "#75a4ff"
+    },
+    "$description": "Used for blue theme color content in pressed state, such as text, linear icons, and outlines",
+    "$extensions": {
+      "id": "primary-content-pressed",
+      "name": "primary/content/pressed",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "primary.content.loading": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.300}",
+      "dark": "{primary.pri.300}"
+    },
+    "$resolved": {
+      "light": "#94b4ff",
+      "dark": "#2655b6"
+    },
+    "$description": "Used for blue theme color content in loading state, such as text, linear icons, and outlines",
+    "$extensions": {
+      "id": "primary-content-loading",
+      "name": "primary/content/loading",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.on-primary-fill": {
+    "$type": "color",
+    "$value": {
+      "light": "{static.white}",
+      "dark": "{static.white}"
+    },
+    "$resolved": {
+      "light": "#ffffff",
+      "dark": "#ffffff"
+    },
+    "$description": "Used for content on solid blue theme fills, such as button text and icons",
+    "$extensions": {
+      "id": "primary-on-primary-fill",
+      "name": "primary/on-primary-fill",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "primary.fill.default": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.600}",
+      "dark": "{primary.pri.400}"
+    },
+    "$resolved": {
+      "light": "#1456f0",
+      "dark": "#3370eb"
+    },
+    "$description": "Used for blue theme color solid fill colors, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "primary-fill-default",
+      "name": "primary/fill/default",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "primary.fill.hover": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.500}",
+      "dark": "{primary.pri.350}"
+    },
+    "$resolved": {
+      "light": "#336df4",
+      "dark": "#275fce"
+    },
+    "$description": "Used for blue theme color solid fill colors in hover state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "primary-fill-hover",
+      "name": "primary/fill/hover",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "primary.fill.pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.700}",
+      "dark": "{primary.pri.500}"
+    },
+    "$resolved": {
+      "light": "#0442d2",
+      "dark": "#4c88ff"
+    },
+    "$description": "Used for blue theme color solid fill colors in pressed state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "primary-fill-pressed",
+      "name": "primary/fill/pressed",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "primary.fill.loading": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.300}",
+      "dark": "{primary.pri.300}"
+    },
+    "$resolved": {
+      "light": "#94b4ff",
+      "dark": "#2655b6"
+    },
+    "$description": "Used for blue theme color solid fill colors in loading state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "primary-fill-loading",
+      "name": "primary/fill/loading",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.fill-solid.01": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.50}",
+      "dark": "{primary.pri.50}"
+    },
+    "$resolved": {
+      "light": "#f0f4ff",
+      "dark": "#152340"
+    },
+    "$description": "Used for blue theme color light fill colors, such as card backgrounds",
+    "$extensions": {
+      "id": "primary-fill-solid-01",
+      "name": "primary/fill-solid/01",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.fill-solid.02": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.100}",
+      "dark": "{primary.pri.100}"
+    },
+    "$resolved": {
+      "light": "#e0e9ff",
+      "dark": "#173166"
+    },
+    "$description": "Used for blue theme color light fill colors, available as hover state, such as card backgrounds",
+    "$extensions": {
+      "id": "primary-fill-solid-02",
+      "name": "primary/fill-solid/02",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.fill-solid.03": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.200}",
+      "dark": "{primary.pri.200}"
+    },
+    "$resolved": {
+      "light": "#c2d4ff",
+      "dark": "#194294"
+    },
+    "$description": "Used for blue theme color light fill colors, available as pressed state, such as card backgrounds",
+    "$extensions": {
+      "id": "primary-fill-solid-03",
+      "name": "primary/fill-solid/03",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.fill-transparent.01": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.600}, 10%",
+      "dark": "{primary.pri.500}, 15%"
+    },
+    "$resolved": {
+      "light": "#1456f01a",
+      "dark": "#4c88ff26"
+    },
+    "$description": "Used for blue theme color light transparent fill colors, such as card backgrounds",
+    "$extensions": {
+      "id": "primary-fill-transparent-01",
+      "name": "primary/fill-transparent/01",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.fill-transparent.02": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.600}, 15%",
+      "dark": "{primary.pri.500}, 20%"
+    },
+    "$resolved": {
+      "light": "#1456f026",
+      "dark": "#4c88ff33"
+    },
+    "$description": "Used for blue theme color light transparent fill colors, available as hover state, such as card backgrounds",
+    "$extensions": {
+      "id": "primary-fill-transparent-02",
+      "name": "primary/fill-transparent/02",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.fill-transparent.03": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.600}, 20%",
+      "dark": "{primary.pri.500}, 30%"
+    },
+    "$resolved": {
+      "light": "#1456f033",
+      "dark": "#4c88ff4c"
+    },
+    "$description": "Used for blue theme color light transparent fill colors, available as pressed state, such as card backgrounds",
+    "$extensions": {
+      "id": "primary-fill-transparent-03",
+      "name": "primary/fill-transparent/03",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.pri-50": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.50}",
+      "dark": "{palette.blue.50}"
+    },
+    "$resolved": {
+      "light": "#f0f4ff",
+      "dark": "#152340"
+    },
+    "$description": "blue theme color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "primary-pri-50",
+      "name": "primary/pri-50",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.pri-100": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.100}",
+      "dark": "{palette.blue.100}"
+    },
+    "$resolved": {
+      "light": "#e0e9ff",
+      "dark": "#173166"
+    },
+    "$description": "blue theme color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "primary-pri-100",
+      "name": "primary/pri-100",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.pri-200": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.200}",
+      "dark": "{palette.blue.200}"
+    },
+    "$resolved": {
+      "light": "#c2d4ff",
+      "dark": "#194294"
+    },
+    "$description": "blue theme color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "primary-pri-200",
+      "name": "primary/pri-200",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.pri-300": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.300}",
+      "dark": "{palette.blue.300}"
+    },
+    "$resolved": {
+      "light": "#94b4ff",
+      "dark": "#2655b6"
+    },
+    "$description": "blue theme color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "primary-pri-300",
+      "name": "primary/pri-300",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.pri-350": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.350}",
+      "dark": "{palette.blue.350}"
+    },
+    "$resolved": {
+      "light": "#7aa2ff",
+      "dark": "#275fce"
+    },
+    "$description": "blue theme color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "primary-pri-350",
+      "name": "primary/pri-350",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.pri-400": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.400}",
+      "dark": "{palette.blue.400}"
+    },
+    "$resolved": {
+      "light": "#5083fb",
+      "dark": "#3370eb"
+    },
+    "$description": "blue theme color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "primary-pri-400",
+      "name": "primary/pri-400",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.pri-500": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.500}",
+      "dark": "{palette.blue.500}"
+    },
+    "$resolved": {
+      "light": "#336df4",
+      "dark": "#4c88ff"
+    },
+    "$description": "blue theme color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "primary-pri-500",
+      "name": "primary/pri-500",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.pri-600": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.600}",
+      "dark": "{palette.blue.600}"
+    },
+    "$resolved": {
+      "light": "#1456f0",
+      "dark": "#75a4ff"
+    },
+    "$description": "blue theme color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "primary-pri-600",
+      "name": "primary/pri-600",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.pri-700": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.700}",
+      "dark": "{palette.blue.700}"
+    },
+    "$resolved": {
+      "light": "#0442d2",
+      "dark": "#8fb4ff"
+    },
+    "$description": "blue theme color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "primary-pri-700",
+      "name": "primary/pri-700",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.pri-800": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.800}",
+      "dark": "{palette.blue.800}"
+    },
+    "$resolved": {
+      "light": "#002f9e",
+      "dark": "#bdd2ff"
+    },
+    "$description": "blue theme color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "primary-pri-800",
+      "name": "primary/pri-800",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "primary.pri-900": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.900}",
+      "dark": "{palette.blue.900}"
+    },
+    "$resolved": {
+      "light": "#002270",
+      "dark": "#e0e9ff"
+    },
+    "$description": "blue theme color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "primary-pri-900",
+      "name": "primary/pri-900",
+      "category": "primary",
+      "categoryLabel": "Primary color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.content.default": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.400}",
+      "dark": "{function.danger.500}"
+    },
+    "$resolved": {
+      "light": "#f54a45",
+      "dark": "#f05b56"
+    },
+    "$description": "Used for danger color content, usually small-area UI elements such as icons and text buttons",
+    "$extensions": {
+      "id": "function-danger-content-default",
+      "name": "function/danger/content/default",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.content.hover": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.350}",
+      "dark": "{function.danger.400}"
+    },
+    "$resolved": {
+      "light": "#ff7570",
+      "dark": "#d14642"
+    },
+    "$description": "Used for danger color content in hover state, such as icons and text buttons",
+    "$extensions": {
+      "id": "function-danger-content-hover",
+      "name": "function/danger/content/hover",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.content.pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.500}",
+      "dark": "{function.danger.600}"
+    },
+    "$resolved": {
+      "light": "#e22e28",
+      "dark": "#f6827e"
+    },
+    "$description": "Used for danger color content in pressed state, such as icons and text buttons",
+    "$extensions": {
+      "id": "function-danger-content-pressed",
+      "name": "function/danger/content/pressed",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.content.loading": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.300}",
+      "dark": "{function.danger.300}"
+    },
+    "$resolved": {
+      "light": "#f89e9b",
+      "dark": "#a03331"
+    },
+    "$description": "Used for danger color content in loading state, such as icons and text buttons",
+    "$extensions": {
+      "id": "function-danger-content-loading",
+      "name": "function/danger/content/loading",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.on-danger-fill": {
+    "$type": "color",
+    "$value": {
+      "light": "{static.white}",
+      "dark": "{static.white}"
+    },
+    "$resolved": {
+      "light": "#ffffff",
+      "dark": "#ffffff"
+    },
+    "$description": "Used for content on danger color fill colors, such as button text and icons",
+    "$extensions": {
+      "id": "function-danger-on-danger-fill",
+      "name": "function/danger/on-danger-fill",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.fill.default": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.400}",
+      "dark": "{function.danger.400}"
+    },
+    "$resolved": {
+      "light": "#f54a45",
+      "dark": "#d14642"
+    },
+    "$description": "Used for danger color solid fill colors, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-danger-fill-default",
+      "name": "function/danger/fill/default",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.fill.hover": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.350}",
+      "dark": "{function.danger.350}"
+    },
+    "$resolved": {
+      "light": "#ff7570",
+      "dark": "#b33a37"
+    },
+    "$description": "Used for danger color solid fill colors in hover state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-danger-fill-hover",
+      "name": "function/danger/fill/hover",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.fill.pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.500}",
+      "dark": "{function.danger.500}"
+    },
+    "$resolved": {
+      "light": "#e22e28",
+      "dark": "#f05b56"
+    },
+    "$description": "Used for danger color solid fill colors in pressed state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-danger-fill-pressed",
+      "name": "function/danger/fill/pressed",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.fill.loading": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.300}",
+      "dark": "{function.danger.300}"
+    },
+    "$resolved": {
+      "light": "#f89e9b",
+      "dark": "#a03331"
+    },
+    "$description": "Used for danger color solid fill colors in loading state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-danger-fill-loading",
+      "name": "function/danger/fill/loading",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.fill-solid.01": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.50}",
+      "dark": "{function.danger.50}"
+    },
+    "$resolved": {
+      "light": "#fef0f0",
+      "dark": "#3d1a19"
+    },
+    "$description": "Used for danger color light fill colors, such as card backgrounds",
+    "$extensions": {
+      "id": "function-danger-fill-solid-01",
+      "name": "function/danger/fill-solid/01",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.fill-solid.02": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.100}",
+      "dark": "{function.danger.100}"
+    },
+    "$resolved": {
+      "light": "#fee3e2",
+      "dark": "#591f1d"
+    },
+    "$description": "Used for danger color light fill colors, available as hover state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-danger-fill-solid-02",
+      "name": "function/danger/fill-solid/02",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.fill-solid.03": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.200}",
+      "dark": "{function.danger.200}"
+    },
+    "$resolved": {
+      "light": "#fdc6c4",
+      "dark": "#7b2524"
+    },
+    "$description": "Used for danger color light fill colors, available as pressed state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-danger-fill-solid-03",
+      "name": "function/danger/fill-solid/03",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.fill-transparent.01": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.500}, 10%",
+      "dark": "{function.danger.500}, 15%"
+    },
+    "$resolved": {
+      "light": "#e22e281a",
+      "dark": "#f05b5626"
+    },
+    "$description": "Used for danger color light transparent fill colors, such as card backgrounds",
+    "$extensions": {
+      "id": "function-danger-fill-transparent-01",
+      "name": "function/danger/fill-transparent/01",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.fill-transparent.02": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.500}, 15%",
+      "dark": "{function.danger.500}, 20%"
+    },
+    "$resolved": {
+      "light": "#e22e2826",
+      "dark": "#f05b5633"
+    },
+    "$description": "Used for danger color light transparent fill colors, available as hover state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-danger-fill-transparent-02",
+      "name": "function/danger/fill-transparent/02",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger.fill-transparent.03": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.danger.500}, 20%",
+      "dark": "{function.danger.500}, 30%"
+    },
+    "$resolved": {
+      "light": "#e22e2833",
+      "dark": "#f05b564c"
+    },
+    "$description": "Used for danger color light transparent fill colors, available as pressed state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-danger-fill-transparent-03",
+      "name": "function/danger/fill-transparent/03",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger-50": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.red.50}",
+      "dark": "{palette.red.50}"
+    },
+    "$resolved": {
+      "light": "#fef0f0",
+      "dark": "#3d1a19"
+    },
+    "$description": "danger color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-danger-50",
+      "name": "function/danger-50",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger-100": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.red.100}",
+      "dark": "{palette.red.100}"
+    },
+    "$resolved": {
+      "light": "#fee3e2",
+      "dark": "#591f1d"
+    },
+    "$description": "danger color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-danger-100",
+      "name": "function/danger-100",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger-200": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.red.200}",
+      "dark": "{palette.red.200}"
+    },
+    "$resolved": {
+      "light": "#fdc6c4",
+      "dark": "#7b2524"
+    },
+    "$description": "danger color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-danger-200",
+      "name": "function/danger-200",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger-300": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.red.300}",
+      "dark": "{palette.red.300}"
+    },
+    "$resolved": {
+      "light": "#f89e9b",
+      "dark": "#a03331"
+    },
+    "$description": "danger color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-danger-300",
+      "name": "function/danger-300",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger-350": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.red.350}",
+      "dark": "{palette.red.350}"
+    },
+    "$resolved": {
+      "light": "#ff7570",
+      "dark": "#b33a37"
+    },
+    "$description": "danger color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-danger-350",
+      "name": "function/danger-350",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger-400": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.red.400}",
+      "dark": "{palette.red.400}"
+    },
+    "$resolved": {
+      "light": "#f54a45",
+      "dark": "#d14642"
+    },
+    "$description": "danger color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-danger-400",
+      "name": "function/danger-400",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger-500": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.red.500}",
+      "dark": "{palette.red.500}"
+    },
+    "$resolved": {
+      "light": "#e22e28",
+      "dark": "#f05b56"
+    },
+    "$description": "danger color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-danger-500",
+      "name": "function/danger-500",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger-600": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.red.600}",
+      "dark": "{palette.red.600}"
+    },
+    "$resolved": {
+      "light": "#c02a26",
+      "dark": "#f6827e"
+    },
+    "$description": "danger color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-danger-600",
+      "name": "function/danger-600",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger-700": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.red.700}",
+      "dark": "{palette.red.700}"
+    },
+    "$resolved": {
+      "light": "#a11c17",
+      "dark": "#f89e9b"
+    },
+    "$description": "danger color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-danger-700",
+      "name": "function/danger-700",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger-800": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.red.800}",
+      "dark": "{palette.red.800}"
+    },
+    "$resolved": {
+      "light": "#741915",
+      "dark": "#fdc6c4"
+    },
+    "$description": "danger color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-danger-800",
+      "name": "function/danger-800",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.danger-900": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.red.900}",
+      "dark": "{palette.red.900}"
+    },
+    "$resolved": {
+      "light": "#590603",
+      "dark": "#fee3e2"
+    },
+    "$description": "danger color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-danger-900",
+      "name": "function/danger-900",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.content.default": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.400}",
+      "dark": "{function.success.600}"
+    },
+    "$resolved": {
+      "light": "#32a645",
+      "dark": "#51ba43"
+    },
+    "$description": "Used for success color content, usually small-area UI elements such as icons and text buttons",
+    "$extensions": {
+      "id": "function-success-content-default",
+      "name": "function/success/content/default",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.content.hover": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.350}",
+      "dark": "{function.success.500}"
+    },
+    "$resolved": {
+      "light": "#35bd4b",
+      "dark": "#419e34"
+    },
+    "$description": "Used for success color content in hover state, such as icons and text buttons",
+    "$extensions": {
+      "id": "function-success-content-hover",
+      "name": "function/success/content/hover",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.content.pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.500}",
+      "dark": "{function.success.700}"
+    },
+    "$resolved": {
+      "light": "#258832",
+      "dark": "#69cc5c"
+    },
+    "$description": "Used for success color content in pressed state, such as icons and text buttons",
+    "$extensions": {
+      "id": "function-success-content-pressed",
+      "name": "function/success/content/pressed",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.content.loading": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.300}",
+      "dark": "{function.success.300}"
+    },
+    "$resolved": {
+      "light": "#5cd168",
+      "dark": "#296621"
+    },
+    "$description": "Used for success color content in loading state, such as icons and text buttons",
+    "$extensions": {
+      "id": "function-success-content-loading",
+      "name": "function/success/content/loading",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.on-success-fill": {
+    "$type": "color",
+    "$value": {
+      "light": "{static.white}",
+      "dark": "{static.white}"
+    },
+    "$resolved": {
+      "light": "#ffffff",
+      "dark": "#ffffff"
+    },
+    "$description": "Used for content on success color fill colors, such as button text and icons",
+    "$extensions": {
+      "id": "function-success-on-success-fill",
+      "name": "function/success/on-success-fill",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.fill.default": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.350}",
+      "dark": "{function.success.500}"
+    },
+    "$resolved": {
+      "light": "#35bd4b",
+      "dark": "#419e34"
+    },
+    "$description": "Used for success color solid fill colors, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-success-fill-default",
+      "name": "function/success/fill/default",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.fill.hover": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.300}",
+      "dark": "{function.success.400}"
+    },
+    "$resolved": {
+      "light": "#5cd168",
+      "dark": "#35872a"
+    },
+    "$description": "Used for success color solid fill colors in hover state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-success-fill-hover",
+      "name": "function/success/fill/hover",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.fill.pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.400}",
+      "dark": "{function.success.600}"
+    },
+    "$resolved": {
+      "light": "#32a645",
+      "dark": "#51ba43"
+    },
+    "$description": "Used for success color solid fill colors in pressed state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-success-fill-pressed",
+      "name": "function/success/fill/pressed",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.fill.loading": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.300}",
+      "dark": "{function.success.300}"
+    },
+    "$resolved": {
+      "light": "#5cd168",
+      "dark": "#296621"
+    },
+    "$description": "Used for success color solid fill colors in loading state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-success-fill-loading",
+      "name": "function/success/fill/loading",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.fill-solid.01": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.50}",
+      "dark": "{function.success.50}"
+    },
+    "$resolved": {
+      "light": "#e4fae1",
+      "dark": "#0e2b0a"
+    },
+    "$description": "Used for success color light fill colors, such as card backgrounds",
+    "$extensions": {
+      "id": "function-success-fill-solid-01",
+      "name": "function/success/fill-solid/01",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.fill-solid.02": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.100}",
+      "dark": "{function.success.100}"
+    },
+    "$resolved": {
+      "light": "#d0f5ce",
+      "dark": "#173b12"
+    },
+    "$description": "Used for success color light fill colors, available as hover state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-success-fill-solid-02",
+      "name": "function/success/fill-solid/02",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.fill-solid.03": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.200}",
+      "dark": "{function.success.200}"
+    },
+    "$resolved": {
+      "light": "#95e599",
+      "dark": "#21511a"
+    },
+    "$description": "Used for success color light fill colors, available as pressed state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-success-fill-solid-03",
+      "name": "function/success/fill-solid/03",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.fill-transparent.01": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.350}, 10%",
+      "dark": "{function.success.500}, 15%"
+    },
+    "$resolved": {
+      "light": "#35bd4b1a",
+      "dark": "#419e3426"
+    },
+    "$description": "Used for success color light transparent fill colors, such as card backgrounds",
+    "$extensions": {
+      "id": "function-success-fill-transparent-01",
+      "name": "function/success/fill-transparent/01",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.fill-transparent.02": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.350}, 15%",
+      "dark": "{function.success.500}, 20%"
+    },
+    "$resolved": {
+      "light": "#35bd4b26",
+      "dark": "#419e3433"
+    },
+    "$description": "Used for success color light transparent fill colors, available as hover state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-success-fill-transparent-02",
+      "name": "function/success/fill-transparent/02",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success.fill-transparent.03": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.success.350}, 20%",
+      "dark": "{function.success.500}, 30%"
+    },
+    "$resolved": {
+      "light": "#35bd4b33",
+      "dark": "#419e344c"
+    },
+    "$description": "Used for success color light transparent fill colors, available as pressed state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-success-fill-transparent-03",
+      "name": "function/success/fill-transparent/03",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success-50": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.green.50}",
+      "dark": "{palette.green.50}"
+    },
+    "$resolved": {
+      "light": "#e4fae1",
+      "dark": "#0e2b0a"
+    },
+    "$description": "success color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-success-50",
+      "name": "function/success-50",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success-100": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.green.100}",
+      "dark": "{palette.green.100}"
+    },
+    "$resolved": {
+      "light": "#d0f5ce",
+      "dark": "#173b12"
+    },
+    "$description": "success color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-success-100",
+      "name": "function/success-100",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success-200": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.green.200}",
+      "dark": "{palette.green.200}"
+    },
+    "$resolved": {
+      "light": "#95e599",
+      "dark": "#21511a"
+    },
+    "$description": "success color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-success-200",
+      "name": "function/success-200",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success-300": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.green.300}",
+      "dark": "{palette.green.300}"
+    },
+    "$resolved": {
+      "light": "#5cd168",
+      "dark": "#296621"
+    },
+    "$description": "success color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-success-300",
+      "name": "function/success-300",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success-350": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.green.350}",
+      "dark": "{palette.green.350}"
+    },
+    "$resolved": {
+      "light": "#35bd4b",
+      "dark": "#2f7526"
+    },
+    "$description": "success color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-success-350",
+      "name": "function/success-350",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success-400": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.green.400}",
+      "dark": "{palette.green.400}"
+    },
+    "$resolved": {
+      "light": "#32a645",
+      "dark": "#35872a"
+    },
+    "$description": "success color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-success-400",
+      "name": "function/success-400",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success-500": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.green.500}",
+      "dark": "{palette.green.500}"
+    },
+    "$resolved": {
+      "light": "#258832",
+      "dark": "#419e34"
+    },
+    "$description": "success color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-success-500",
+      "name": "function/success-500",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success-600": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.green.600}",
+      "dark": "{palette.green.600}"
+    },
+    "$resolved": {
+      "light": "#1a7526",
+      "dark": "#51ba43"
+    },
+    "$description": "success color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-success-600",
+      "name": "function/success-600",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success-700": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.green.700}",
+      "dark": "{palette.green.700}"
+    },
+    "$resolved": {
+      "light": "#0b6017",
+      "dark": "#69cc5c"
+    },
+    "$description": "success color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-success-700",
+      "name": "function/success-700",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success-800": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.green.800}",
+      "dark": "{palette.green.800}"
+    },
+    "$resolved": {
+      "light": "#04430c",
+      "dark": "#99e490"
+    },
+    "$description": "success color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-success-800",
+      "name": "function/success-800",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.success-900": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.green.900}",
+      "dark": "{palette.green.900}"
+    },
+    "$resolved": {
+      "light": "#022c07",
+      "dark": "#cbf5c6"
+    },
+    "$description": "success color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-success-900",
+      "name": "function/success-900",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.content.default": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.400}",
+      "dark": "{function.warning.600}"
+    },
+    "$resolved": {
+      "light": "#ed6d0c",
+      "dark": "#f3871b"
+    },
+    "$description": "Used for warning color content, usually small-area UI elements such as icons and text buttons",
+    "$extensions": {
+      "id": "function-warning-content-default",
+      "name": "function/warning/content/default",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.content.hover": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.350}",
+      "dark": "{function.warning.500}"
+    },
+    "$resolved": {
+      "light": "#ff811a",
+      "dark": "#db7018"
+    },
+    "$description": "Used for warning color content in hover state, such as icons and text buttons",
+    "$extensions": {
+      "id": "function-warning-content-hover",
+      "name": "function/warning/content/hover",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.content.pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.500}",
+      "dark": "{function.warning.700}"
+    },
+    "$resolved": {
+      "light": "#c25705",
+      "dark": "#f89e44"
+    },
+    "$description": "Used for warning color content in pressed state, such as icons and text buttons",
+    "$extensions": {
+      "id": "function-warning-content-pressed",
+      "name": "function/warning/content/pressed",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.content.loading": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.300}",
+      "dark": "{function.warning.300}"
+    },
+    "$resolved": {
+      "light": "#ff9d4c",
+      "dark": "#8a4a19"
+    },
+    "$description": "Used for warning color content in loading state, such as icons and text buttons",
+    "$extensions": {
+      "id": "function-warning-content-loading",
+      "name": "function/warning/content/loading",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.on-warning-fill": {
+    "$type": "color",
+    "$value": {
+      "light": "{static.white}",
+      "dark": "{static.white}"
+    },
+    "$resolved": {
+      "light": "#ffffff",
+      "dark": "#ffffff"
+    },
+    "$description": "Used for content on warning color fill colors, such as button text and icons",
+    "$extensions": {
+      "id": "function-warning-on-warning-fill",
+      "name": "function/warning/on-warning-fill",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.fill.default": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.350}",
+      "dark": "{function.warning.600}"
+    },
+    "$resolved": {
+      "light": "#ff811a",
+      "dark": "#f3871b"
+    },
+    "$description": "Used for warning color solid fill colors, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-warning-fill-default",
+      "name": "function/warning/fill/default",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.fill.hover": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.300}",
+      "dark": "{function.warning.500}"
+    },
+    "$resolved": {
+      "light": "#ff9d4c",
+      "dark": "#db7018"
+    },
+    "$description": "Used for warning color solid fill colors in hover state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-warning-fill-hover",
+      "name": "function/warning/fill/hover",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.fill.pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.400}",
+      "dark": "{function.warning.700}"
+    },
+    "$resolved": {
+      "light": "#ed6d0c",
+      "dark": "#f89e44"
+    },
+    "$description": "Used for warning color solid fill colors in pressed state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-warning-fill-pressed",
+      "name": "function/warning/fill/pressed",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.fill.loading": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.300}",
+      "dark": "{function.warning.300}"
+    },
+    "$resolved": {
+      "light": "#ff9d4c",
+      "dark": "#8a4a19"
+    },
+    "$description": "Used for warning color solid fill colors in loading state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-warning-fill-loading",
+      "name": "function/warning/fill/loading",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.fill-solid.01": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.50}",
+      "dark": "{function.warning.50}"
+    },
+    "$resolved": {
+      "light": "#fff3e5",
+      "dark": "#33210b"
+    },
+    "$description": "Used for warning color light fill colors, such as card backgrounds",
+    "$extensions": {
+      "id": "function-warning-fill-solid-01",
+      "name": "function/warning/fill-solid/01",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.fill-solid.02": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.100}",
+      "dark": "{function.warning.100}"
+    },
+    "$resolved": {
+      "light": "#fee7cd",
+      "dark": "#4a2b10"
+    },
+    "$description": "Used for warning color light fill colors, available as hover state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-warning-fill-solid-02",
+      "name": "function/warning/fill-solid/02",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.fill-solid.03": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.200}",
+      "dark": "{function.warning.200}"
+    },
+    "$resolved": {
+      "light": "#fec48b",
+      "dark": "#683a12"
+    },
+    "$description": "Used for warning color light fill colors, available as pressed state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-warning-fill-solid-03",
+      "name": "function/warning/fill-solid/03",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.fill-transparent.01": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.400}, 10%",
+      "dark": "{function.warning.600}, 15%"
+    },
+    "$resolved": {
+      "light": "#ed6d0c1a",
+      "dark": "#f3871b26"
+    },
+    "$description": "Used for warning color light transparent fill colors, such as card backgrounds",
+    "$extensions": {
+      "id": "function-warning-fill-transparent-01",
+      "name": "function/warning/fill-transparent/01",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.fill-transparent.02": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.400}, 15%",
+      "dark": "{function.warning.600}, 20%"
+    },
+    "$resolved": {
+      "light": "#ed6d0c26",
+      "dark": "#f3871b33"
+    },
+    "$description": "Used for warning color light transparent fill colors, available as hover state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-warning-fill-transparent-02",
+      "name": "function/warning/fill-transparent/02",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning.fill-transparent.03": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.warning.400}, 20%",
+      "dark": "{function.warning.600}, 30%"
+    },
+    "$resolved": {
+      "light": "#ed6d0c33",
+      "dark": "#f3871b4c"
+    },
+    "$description": "Used for warning color light transparent fill colors, available as pressed state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-warning-fill-transparent-03",
+      "name": "function/warning/fill-transparent/03",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning-50": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.orange.50}",
+      "dark": "{palette.orange.50}"
+    },
+    "$resolved": {
+      "light": "#fff3e5",
+      "dark": "#33210b"
+    },
+    "$description": "warning color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-warning-50",
+      "name": "function/warning-50",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning-100": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.orange.100}",
+      "dark": "{palette.orange.100}"
+    },
+    "$resolved": {
+      "light": "#fee7cd",
+      "dark": "#4a2b10"
+    },
+    "$description": "warning color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-warning-100",
+      "name": "function/warning-100",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning-200": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.orange.200}",
+      "dark": "{palette.orange.200}"
+    },
+    "$resolved": {
+      "light": "#fec48b",
+      "dark": "#683a12"
+    },
+    "$description": "warning color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-warning-200",
+      "name": "function/warning-200",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning-300": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.orange.300}",
+      "dark": "{palette.orange.300}"
+    },
+    "$resolved": {
+      "light": "#ff9d4c",
+      "dark": "#8a4a19"
+    },
+    "$description": "warning color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-warning-300",
+      "name": "function/warning-300",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning-350": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.orange.350}",
+      "dark": "{palette.orange.350}"
+    },
+    "$resolved": {
+      "light": "#ff811a",
+      "dark": "#a15317"
+    },
+    "$description": "warning color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-warning-350",
+      "name": "function/warning-350",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning-400": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.orange.400}",
+      "dark": "{palette.orange.400}"
+    },
+    "$resolved": {
+      "light": "#ed6d0c",
+      "dark": "#b85e1a"
+    },
+    "$description": "warning color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-warning-400",
+      "name": "function/warning-400",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning-500": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.orange.500}",
+      "dark": "{palette.orange.500}"
+    },
+    "$resolved": {
+      "light": "#c25705",
+      "dark": "#db7018"
+    },
+    "$description": "warning color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-warning-500",
+      "name": "function/warning-500",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning-600": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.orange.600}",
+      "dark": "{palette.orange.600}"
+    },
+    "$resolved": {
+      "light": "#a44904",
+      "dark": "#f3871b"
+    },
+    "$description": "warning color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-warning-600",
+      "name": "function/warning-600",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning-700": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.orange.700}",
+      "dark": "{palette.orange.700}"
+    },
+    "$resolved": {
+      "light": "#853a05",
+      "dark": "#f89e44"
+    },
+    "$description": "warning color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-warning-700",
+      "name": "function/warning-700",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning-800": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.orange.800}",
+      "dark": "{palette.orange.800}"
+    },
+    "$resolved": {
+      "light": "#642b02",
+      "dark": "#fec88b"
+    },
+    "$description": "warning color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-warning-800",
+      "name": "function/warning-800",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.warning-900": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.orange.900}",
+      "dark": "{palette.orange.900}"
+    },
+    "$resolved": {
+      "light": "#3b1a02",
+      "dark": "#fee7cd"
+    },
+    "$description": "warning color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-warning-900",
+      "name": "function/warning-900",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.content.default": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.600}",
+      "dark": "{function.info.500}"
+    },
+    "$resolved": {
+      "light": "#1456f0",
+      "dark": "#4c88ff"
+    },
+    "$description": "Used for info color content, usually small-area UI elements such as icons and text buttons",
+    "$extensions": {
+      "id": "function-info-content-default",
+      "name": "function/info/content/default",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.content.hover": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.500}",
+      "dark": "{function.info.400}"
+    },
+    "$resolved": {
+      "light": "#336df4",
+      "dark": "#3370eb"
+    },
+    "$description": "Used for info color content in hover state, such as icons and text buttons",
+    "$extensions": {
+      "id": "function-info-content-hover",
+      "name": "function/info/content/hover",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.content.pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.700}",
+      "dark": "{function.info.600}"
+    },
+    "$resolved": {
+      "light": "#0442d2",
+      "dark": "#75a4ff"
+    },
+    "$description": "Used for info color content in pressed state, such as icons and text buttons",
+    "$extensions": {
+      "id": "function-info-content-pressed",
+      "name": "function/info/content/pressed",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.content.loading": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.300}",
+      "dark": "{function.info.300}"
+    },
+    "$resolved": {
+      "light": "#94b4ff",
+      "dark": "#2655b6"
+    },
+    "$description": "Used for info color content in loading state, such as icons and text buttons",
+    "$extensions": {
+      "id": "function-info-content-loading",
+      "name": "function/info/content/loading",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.on-info-fill": {
+    "$type": "color",
+    "$value": {
+      "light": "{static.white}",
+      "dark": "{static.white}"
+    },
+    "$resolved": {
+      "light": "#ffffff",
+      "dark": "#ffffff"
+    },
+    "$description": "Used for content on info color fill colors, such as button text and icons",
+    "$extensions": {
+      "id": "function-info-on-info-fill",
+      "name": "function/info/on-info-fill",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.fill.default": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.600}",
+      "dark": "{function.info.400}"
+    },
+    "$resolved": {
+      "light": "#1456f0",
+      "dark": "#3370eb"
+    },
+    "$description": "Used for info color solid fill colors, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-info-fill-default",
+      "name": "function/info/fill/default",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.fill.hover": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.500}",
+      "dark": "{function.info.350}"
+    },
+    "$resolved": {
+      "light": "#336df4",
+      "dark": "#275fce"
+    },
+    "$description": "Used for info color solid fill colors in hover state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-info-fill-hover",
+      "name": "function/info/fill/hover",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.fill.pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.700}",
+      "dark": "{function.info.500}"
+    },
+    "$resolved": {
+      "light": "#0442d2",
+      "dark": "#4c88ff"
+    },
+    "$description": "Used for info color solid fill colors in pressed state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-info-fill-pressed",
+      "name": "function/info/fill/pressed",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.fill.loading": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.300}",
+      "dark": "{function.info.300}"
+    },
+    "$resolved": {
+      "light": "#94b4ff",
+      "dark": "#2655b6"
+    },
+    "$description": "Used for info color solid fill colors in loading state, such as primary buttons, selected radio buttons, and selected checkboxes",
+    "$extensions": {
+      "id": "function-info-fill-loading",
+      "name": "function/info/fill/loading",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.fill-solid.01": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.50}",
+      "dark": "{function.info.50}"
+    },
+    "$resolved": {
+      "light": "#f0f4ff",
+      "dark": "#152340"
+    },
+    "$description": "Used for info color light fill colors, such as card backgrounds",
+    "$extensions": {
+      "id": "function-info-fill-solid-01",
+      "name": "function/info/fill-solid/01",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.fill-solid.02": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.100}",
+      "dark": "{function.info.100}"
+    },
+    "$resolved": {
+      "light": "#e0e9ff",
+      "dark": "#173166"
+    },
+    "$description": "Used for info color light fill colors, available as hover state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-info-fill-solid-02",
+      "name": "function/info/fill-solid/02",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.fill-solid.03": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.200}",
+      "dark": "{function.info.200}"
+    },
+    "$resolved": {
+      "light": "#c2d4ff",
+      "dark": "#194294"
+    },
+    "$description": "Used for info color light fill colors, available as pressed state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-info-fill-solid-03",
+      "name": "function/info/fill-solid/03",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.fill-transparent.01": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.600}, 10%",
+      "dark": "{function.info.500}, 15%"
+    },
+    "$resolved": {
+      "light": "#1456f01a",
+      "dark": "#4c88ff26"
+    },
+    "$description": "Used for info color light transparent fill colors, such as card backgrounds",
+    "$extensions": {
+      "id": "function-info-fill-transparent-01",
+      "name": "function/info/fill-transparent/01",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.fill-transparent.02": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.600}, 15%",
+      "dark": "{function.info.500}, 20%"
+    },
+    "$resolved": {
+      "light": "#1456f026",
+      "dark": "#4c88ff33"
+    },
+    "$description": "Used for info color light transparent fill colors, available as hover state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-info-fill-transparent-02",
+      "name": "function/info/fill-transparent/02",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info.fill-transparent.03": {
+    "$type": "color",
+    "$value": {
+      "light": "{function.info.600}, 20%",
+      "dark": "{function.info.500}, 30%"
+    },
+    "$resolved": {
+      "light": "#1456f033",
+      "dark": "#4c88ff4c"
+    },
+    "$description": "Used for info color light transparent fill colors, available as pressed state, such as card backgrounds",
+    "$extensions": {
+      "id": "function-info-fill-transparent-03",
+      "name": "function/info/fill-transparent/03",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info-50": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.50}",
+      "dark": "{palette.blue.50}"
+    },
+    "$resolved": {
+      "light": "#f0f4ff",
+      "dark": "#152340"
+    },
+    "$description": "info color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-info-50",
+      "name": "function/info-50",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info-100": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.100}",
+      "dark": "{palette.blue.100}"
+    },
+    "$resolved": {
+      "light": "#e0e9ff",
+      "dark": "#173166"
+    },
+    "$description": "info color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-info-100",
+      "name": "function/info-100",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info-200": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.200}",
+      "dark": "{palette.blue.200}"
+    },
+    "$resolved": {
+      "light": "#c2d4ff",
+      "dark": "#194294"
+    },
+    "$description": "info color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-info-200",
+      "name": "function/info-200",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info-300": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.300}",
+      "dark": "{palette.blue.300}"
+    },
+    "$resolved": {
+      "light": "#94b4ff",
+      "dark": "#2655b6"
+    },
+    "$description": "info color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-info-300",
+      "name": "function/info-300",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info-350": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.350}",
+      "dark": "{palette.blue.350}"
+    },
+    "$resolved": {
+      "light": "#7aa2ff",
+      "dark": "#275fce"
+    },
+    "$description": "info color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-info-350",
+      "name": "function/info-350",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info-400": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.400}",
+      "dark": "{palette.blue.400}"
+    },
+    "$resolved": {
+      "light": "#5083fb",
+      "dark": "#3370eb"
+    },
+    "$description": "info color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-info-400",
+      "name": "function/info-400",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info-500": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.500}",
+      "dark": "{palette.blue.500}"
+    },
+    "$resolved": {
+      "light": "#336df4",
+      "dark": "#4c88ff"
+    },
+    "$description": "info color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-info-500",
+      "name": "function/info-500",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info-600": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.600}",
+      "dark": "{palette.blue.600}"
+    },
+    "$resolved": {
+      "light": "#1456f0",
+      "dark": "#75a4ff"
+    },
+    "$description": "info color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-info-600",
+      "name": "function/info-600",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info-700": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.700}",
+      "dark": "{palette.blue.700}"
+    },
+    "$resolved": {
+      "light": "#0442d2",
+      "dark": "#8fb4ff"
+    },
+    "$description": "info color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-info-700",
+      "name": "function/info-700",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info-800": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.800}",
+      "dark": "{palette.blue.800}"
+    },
+    "$resolved": {
+      "light": "#002f9e",
+      "dark": "#bdd2ff"
+    },
+    "$description": "info color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-info-800",
+      "name": "function/info-800",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "function.info-900": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.900}",
+      "dark": "{palette.blue.900}"
+    },
+    "$resolved": {
+      "light": "#002270",
+      "dark": "#e0e9ff"
+    },
+    "$description": "info color gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "function-info-900",
+      "name": "function/info-900",
+      "category": "function",
+      "categoryLabel": "Functional color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "text.title": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}",
+      "dark": "{palette.neutral.900}"
+    },
+    "$resolved": {
+      "light": "#1f2329",
+      "dark": "#ebebeb"
+    },
+    "$description": "Used for primary text such as main titles, body text, and buttons",
+    "$extensions": {
+      "id": "text-title",
+      "name": "text/title",
+      "category": "text",
+      "categoryLabel": "Text color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "text.caption": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.600}",
+      "dark": "{palette.neutral.600}"
+    },
+    "$resolved": {
+      "light": "#646a73",
+      "dark": "#a6a6a6"
+    },
+    "$description": "Used for secondary text such as subtitles and descriptions",
+    "$extensions": {
+      "id": "text-caption",
+      "name": "text/caption",
+      "category": "text",
+      "categoryLabel": "Text color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "text.placeholder": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.500}",
+      "dark": "{palette.neutral.500}"
+    },
+    "$resolved": {
+      "light": "#8f959e",
+      "dark": "#757575"
+    },
+    "$description": "Used for hint text such as placeholders, tips, and secondary information",
+    "$extensions": {
+      "id": "text-placeholder",
+      "name": "text/placeholder",
+      "category": "text",
+      "categoryLabel": "Text color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "text.disabled": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.400}",
+      "dark": "{palette.neutral.400}"
+    },
+    "$resolved": {
+      "light": "#bbbfc4",
+      "dark": "#5f5f5f"
+    },
+    "$description": "Used for disabled text",
+    "$extensions": {
+      "id": "text-disabled",
+      "name": "text/disabled",
+      "category": "text",
+      "categoryLabel": "Text color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "text.link-normal": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.600}",
+      "dark": "{palette.blue.500}"
+    },
+    "$resolved": {
+      "light": "#1456f0",
+      "dark": "#4c88ff"
+    },
+    "$description": "Used for default link text color (Vnext output)",
+    "$extensions": {
+      "id": "text-link-normal",
+      "name": "text/link-normal",
+      "category": "text",
+      "categoryLabel": "Text color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "text.link-hover": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.500}",
+      "dark": "{palette.blue.400}"
+    },
+    "$resolved": {
+      "light": "#336df4",
+      "dark": "#3370eb"
+    },
+    "$description": "Used for link text in hover state",
+    "$extensions": {
+      "id": "text-link-hover",
+      "name": "text/link-hover",
+      "category": "text",
+      "categoryLabel": "Text color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "text.link-pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.700}",
+      "dark": "{palette.blue.600}"
+    },
+    "$resolved": {
+      "light": "#0442d2",
+      "dark": "#75a4ff"
+    },
+    "$description": "Used for link text in pressed state (Vnext output)",
+    "$extensions": {
+      "id": "text-link-pressed",
+      "name": "text/link-pressed",
+      "category": "text",
+      "categoryLabel": "Text color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "text.link-loading": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.300}",
+      "dark": "{palette.blue.300}"
+    },
+    "$resolved": {
+      "light": "#94b4ff",
+      "dark": "#2655b6"
+    },
+    "$description": "Used for link text in loading state",
+    "$extensions": {
+      "id": "text-link-loading",
+      "name": "text/link-loading",
+      "category": "text",
+      "categoryLabel": "Text color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "text.link-disabled": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.400}",
+      "dark": "{palette.neutral.400}"
+    },
+    "$resolved": {
+      "light": "#bbbfc4",
+      "dark": "#5f5f5f"
+    },
+    "$description": "Used for link text in disabled state",
+    "$extensions": {
+      "id": "text-link-disabled",
+      "name": "text/link-disabled",
+      "category": "text",
+      "categoryLabel": "Text color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "line.border-card": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.300}",
+      "dark": "{palette.neutral.900}, 15%"
+    },
+    "$resolved": {
+      "light": "#dee0e3",
+      "dark": "#ebebeb26"
+    },
+    "$description": "Used for card borders, such as shared cards in conversations",
+    "$extensions": {
+      "id": "line-border-card",
+      "name": "line/border-card",
+      "category": "line",
+      "categoryLabel": "Border color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "line.border-component": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.350}",
+      "dark": "{palette.neutral.350}"
+    },
+    "$resolved": {
+      "light": "#d0d3d6",
+      "dark": "#505050"
+    },
+    "$description": "Used for component borders that reinforce interactivity, such as radio buttons and inputs",
+    "$extensions": {
+      "id": "line-border-component",
+      "name": "line/border-component",
+      "category": "line",
+      "categoryLabel": "Border color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "line.divider-default": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 15%",
+      "dark": "{palette.neutral.650}, 15%"
+    },
+    "$resolved": {
+      "light": "#1f232926",
+      "dark": "#cfcfcf26"
+    },
+    "$description": "Used for dividers",
+    "$extensions": {
+      "id": "line-divider-default",
+      "name": "line/divider-default",
+      "category": "line",
+      "categoryLabel": "Border color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "line.divider-module": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 15%",
+      "dark": "{static.black}"
+    },
+    "$resolved": {
+      "light": "#1f232926",
+      "dark": "#000000"
+    },
+    "$description": "Deprecated in IG, do not use; module divider",
+    "$extensions": {
+      "id": "line-divider-module",
+      "name": "line/divider-module",
+      "category": "line",
+      "categoryLabel": "Border color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "bg.body": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}",
+      "dark": "{palette.neutral.50}"
+    },
+    "$resolved": {
+      "light": "#ffffff",
+      "dark": "#1a1a1a"
+    },
+    "$description": "Used for large white backgrounds, the default background of page main content, often used in content areas and active views",
+    "$extensions": {
+      "id": "bg-body",
+      "name": "bg/body",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "bg.content-base": {
+    "$type": "color",
+    "$value": {
+      "light": "#f8f9fa",
+      "dark": "#121212"
+    },
+    "$resolved": {
+      "light": "#f8f9fa",
+      "dark": "#121212"
+    },
+    "$description": "Used for large light-gray backgrounds; consider content-base when base is too dark as a background",
+    "$extensions": {
+      "id": "bg-content-base",
+      "name": "bg/content-base",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "bg.base": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.100}",
+      "dark": "{palette.neutral.00}"
+    },
+    "$resolved": {
+      "light": "#f2f3f5",
+      "dark": "#0a0a0a"
+    },
+    "$description": "Used for large gray backgrounds, such as the background behind content areas",
+    "$extensions": {
+      "id": "bg-base",
+      "name": "bg/base",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "bg.body-overlay": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.50}",
+      "dark": "{palette.neutral.100}"
+    },
+    "$resolved": {
+      "light": "#f5f6f7",
+      "dark": "#292929"
+    },
+    "$description": "Used for gray backgrounds layered on white backgrounds, such as cards and content areas",
+    "$extensions": {
+      "id": "bg-body-overlay",
+      "name": "bg/body-overlay",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "bg.float": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}",
+      "dark": "{palette.neutral.100}"
+    },
+    "$resolved": {
+      "light": "#ffffff",
+      "dark": "#292929"
+    },
+    "$description": "Used for white floating-layer backgrounds, such as dialogs, popover cards, and menus",
+    "$extensions": {
+      "id": "bg-float",
+      "name": "bg/float",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "bg.float-base": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.100}",
+      "dark": "{palette.neutral.50}"
+    },
+    "$resolved": {
+      "light": "#f2f3f5",
+      "dark": "#1a1a1a"
+    },
+    "$description": "Used for gray floating-layer backgrounds",
+    "$extensions": {
+      "id": "bg-float-base",
+      "name": "bg/float-base",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "bg.float-overlay": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.50}",
+      "dark": "{palette.neutral.200}"
+    },
+    "$resolved": {
+      "light": "#f5f6f7",
+      "dark": "#373737"
+    },
+    "$description": "Used for gray backgrounds layered on white floating layers, such as cards",
+    "$extensions": {
+      "id": "bg-float-overlay",
+      "name": "bg/float-overlay",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "bg.float-push": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 80%",
+      "dark": "{palette.neutral.100}, 80%"
+    },
+    "$resolved": {
+      "light": "#ffffffcc",
+      "dark": "#292929cc"
+    },
+    "$description": "Used for in-app IM notification backgrounds",
+    "$extensions": {
+      "id": "bg-float-push",
+      "name": "bg/float-push",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "bg.sub-navigation": {
+    "$type": "color",
+    "$value": {
+      "light": "{bg.body-overlay}",
+      "dark": "#262626"
+    },
+    "$resolved": {
+      "light": "#f5f6f7",
+      "dark": "#262626"
+    },
+    "$description": "Used for sidebar background color",
+    "$extensions": {
+      "id": "bg-sub-navigation",
+      "name": "bg/sub-navigation",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "bg.mask": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000, 55%",
+      "dark": "#000000, 60%"
+    },
+    "$resolved": {
+      "light": "#0000008c",
+      "dark": "#00000099"
+    },
+    "$description": "Used for mask color",
+    "$extensions": {
+      "id": "bg-mask",
+      "name": "bg/mask",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "bg.filler": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.200}",
+      "dark": "{palette.neutral.200}"
+    },
+    "$resolved": {
+      "light": "#eff0f1",
+      "dark": "#373737"
+    },
+    "$description": "Used for mobile gray inputs, numeric avatar backgrounds, and disabled states of value selectors such as date pickers and cascaders",
+    "$extensions": {
+      "id": "bg-filler",
+      "name": "bg/filler",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "bg.tips": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}",
+      "dark": "{palette.neutral.350}"
+    },
+    "$resolved": {
+      "light": "#1f2329",
+      "dark": "#505050"
+    },
+    "$description": "Used for tooltip background color",
+    "$extensions": {
+      "id": "bg-tips",
+      "name": "bg/tips",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "bg.text-selection": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.600}, 30%",
+      "dark": "{primary.pri.600}, 30%"
+    },
+    "$resolved": {
+      "light": "#1456f04c",
+      "dark": "#75a4ff4c"
+    },
+    "$description": "Used for selected text background color",
+    "$extensions": {
+      "id": "bg-text-selection",
+      "name": "bg/text-selection",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "bg.pricolor": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.400}",
+      "dark": "{primary.pri.400}"
+    },
+    "$resolved": {
+      "light": "#5083fb",
+      "dark": "#3370eb"
+    },
+    "$description": "Used for large-area theme-color guidance scenarios",
+    "$extensions": {
+      "id": "bg-pricolor",
+      "name": "bg/pricolor",
+      "category": "background",
+      "categoryLabel": "Background color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "shadow.default": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}",
+      "dark": "#000000"
+    },
+    "$resolved": {
+      "light": "#1f2329",
+      "dark": "#000000"
+    },
+    "$description": "Used for default shadow color of UI elements, such as floating buttons",
+    "$extensions": {
+      "id": "shadow-default",
+      "name": "shadow/default",
+      "category": "Shadow color",
+      "categoryLabel": "Shadow color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "shadow.default-sm": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 12%",
+      "dark": "#000000, 32%"
+    },
+    "$resolved": {
+      "light": "#1f23291f",
+      "dark": "#00000052"
+    },
+    "$description": "Used for shadow color of small-area elements such as bottom action bars, basic content cards, and sticky table headers; applied to bottom action bars, top primary navigation, basic content cards, sticky table headers, right drawers, and left navigation",
+    "$extensions": {
+      "id": "shadow-default-sm",
+      "name": "shadow/default-sm",
+      "category": "Shadow color",
+      "categoryLabel": "Shadow color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "shadow.default-md": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 10%",
+      "dark": "#000000, 28%"
+    },
+    "$resolved": {
+      "light": "#1f23291a",
+      "dark": "#00000047"
+    },
+    "$description": "Used for shadow color of medium-area elements such as toolbars, notifications, and dropdown menus; applied to toolbars, side drawers, notifications, dropdown select, tree select, cascader, dropdown menu, global message, floating button, tooltip, and blue floating button",
+    "$extensions": {
+      "id": "shadow-default-md",
+      "name": "shadow/default-md",
+      "category": "Shadow color",
+      "categoryLabel": "Shadow color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "shadow.default-lg": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 8%",
+      "dark": "#000000, 24%"
+    },
+    "$resolved": {
+      "light": "#1f232914",
+      "dark": "#0000003d"
+    },
+    "$description": "Used for shadow color of large-area elements such as large cards and content pages; applied to hover / click / drag-and-drop states of page-module cards, individual cards, and notifications",
+    "$extensions": {
+      "id": "shadow-default-lg",
+      "name": "shadow/default-lg",
+      "category": "Shadow color",
+      "categoryLabel": "Shadow color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "shadow.pri": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.600}",
+      "dark": "#245bdb"
+    },
+    "$resolved": {
+      "light": "#1456f0",
+      "dark": "#245bdb"
+    },
+    "$description": "Used for default shadow color of blue theme elements, such as floating buttons",
+    "$extensions": {
+      "id": "shadow-pri",
+      "name": "shadow/pri",
+      "category": "Shadow color",
+      "categoryLabel": "Shadow color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "shadow.pri-md": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.600}, 24%",
+      "dark": "{primary.pri.200}, 48%"
+    },
+    "$resolved": {
+      "light": "#1456f03d",
+      "dark": "#1942947a"
+    },
+    "$description": "Used for shadow color of medium-area blue theme elements, such as floating buttons",
+    "$extensions": {
+      "id": "shadow-pri-md",
+      "name": "shadow/pri-md",
+      "category": "Shadow color",
+      "categoryLabel": "Shadow color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "shadow.pri-lg": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.pri.600}, 24%",
+      "dark": "{primary.pri.200}, 48%"
+    },
+    "$resolved": {
+      "light": "#1456f03d",
+      "dark": "#1942947a"
+    },
+    "$description": "Used for shadow color of large-area blue theme elements, such as guide cards",
+    "$extensions": {
+      "id": "shadow-pri-lg",
+      "name": "shadow/pri-lg",
+      "category": "Shadow color",
+      "categoryLabel": "Shadow color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "icon.n1": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.800}",
+      "dark": "{palette.neutral.800}"
+    },
+    "$resolved": {
+      "light": "#2b2f36",
+      "dark": "#e8e8e8"
+    },
+    "$description": "Used for primary functions such as main navigation and toolbars, with strong visual guidance icons",
+    "$extensions": {
+      "id": "icon-n1",
+      "name": "icon/n1",
+      "category": "icon",
+      "categoryLabel": "Icon color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "icon.n2": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.600}",
+      "dark": "{palette.neutral.600}"
+    },
+    "$resolved": {
+      "light": "#646a73",
+      "dark": "#a6a6a6"
+    },
+    "$description": "Used for secondary functions such as secondary navigation, menus, and interactive icons inside inputs, with medium visual guidance icons",
+    "$extensions": {
+      "id": "icon-n2",
+      "name": "icon/n2",
+      "category": "icon",
+      "categoryLabel": "Icon color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "icon.n3": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.500}",
+      "dark": "{palette.neutral.500}"
+    },
+    "$resolved": {
+      "light": "#8f959e",
+      "dark": "#757575"
+    },
+    "$description": "Used for auxiliary functions such as tab bars, unselected states, arrows, and ideographic icons, with weak visual guidance icons",
+    "$extensions": {
+      "id": "icon-n3",
+      "name": "icon/n3",
+      "category": "icon",
+      "categoryLabel": "Icon color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "icon.disabled": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.400}",
+      "dark": "{palette.neutral.400}"
+    },
+    "$resolved": {
+      "light": "#bbbfc4",
+      "dark": "#5f5f5f"
+    },
+    "$description": "Used for disabled icons",
+    "$extensions": {
+      "id": "icon-disabled",
+      "name": "icon/disabled",
+      "category": "icon",
+      "categoryLabel": "Icon color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "fill.hover": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 8%",
+      "dark": "{palette.neutral.900}, 8%"
+    },
+    "$resolved": {
+      "light": "#1f232914",
+      "dark": "#ebebeb14"
+    },
+    "$description": "Used for hover state colors, such as text buttons and icon buttons",
+    "$extensions": {
+      "id": "fill-hover",
+      "name": "fill/hover",
+      "category": "fill",
+      "categoryLabel": "Fill color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "fill.pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 12%",
+      "dark": "{palette.neutral.900}, 12%"
+    },
+    "$resolved": {
+      "light": "#1f23291f",
+      "dark": "#ebebeb1f"
+    },
+    "$description": "Used for pressed state colors, such as text buttons and icon buttons",
+    "$extensions": {
+      "id": "fill-pressed",
+      "name": "fill/pressed",
+      "category": "fill",
+      "categoryLabel": "Fill color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "fill.focus": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 12%",
+      "dark": "{palette.neutral.900}, 12%"
+    },
+    "$resolved": {
+      "light": "#1f23291f",
+      "dark": "#ebebeb1f"
+    },
+    "$description": "Used for keyboard focus state colors, such as text buttons and icon buttons",
+    "$extensions": {
+      "id": "fill-focus",
+      "name": "fill/focus",
+      "category": "fill",
+      "categoryLabel": "Fill color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "fill.active": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.fill-transparent.02}",
+      "dark": "{primary.fill-transparent.02}"
+    },
+    "$resolved": {
+      "light": "#1456f026",
+      "dark": "#4c88ff33"
+    },
+    "$description": "Used for active state color",
+    "$extensions": {
+      "id": "fill-active",
+      "name": "fill/active",
+      "category": "fill",
+      "categoryLabel": "Fill color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "fill.selected": {
+    "$type": "color",
+    "$value": {
+      "light": "{primary.fill-transparent.01}",
+      "dark": "{primary.fill-transparent.01}"
+    },
+    "$resolved": {
+      "light": "#1456f01a",
+      "dark": "#4c88ff26"
+    },
+    "$description": "Used for selected state color",
+    "$extensions": {
+      "id": "fill-selected",
+      "name": "fill/selected",
+      "category": "fill",
+      "categoryLabel": "Fill color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "fill.disabled": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.400}",
+      "dark": "{palette.neutral.400}"
+    },
+    "$resolved": {
+      "light": "#bbbfc4",
+      "dark": "#5f5f5f"
+    },
+    "$description": "Used for disabled fill color",
+    "$extensions": {
+      "id": "fill-disabled",
+      "name": "fill/disabled",
+      "category": "fill",
+      "categoryLabel": "Fill color",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "fill.tag": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 10%",
+      "dark": "{palette.neutral.900}, 10%"
+    },
+    "$resolved": {
+      "light": "#1f23291a",
+      "dark": "#ebebeb1a"
+    },
+    "$description": "Used for inner stroke color of Department Avatar and similar components",
+    "$extensions": {
+      "id": "fill-tag",
+      "name": "fill/tag",
+      "category": "fill",
+      "categoryLabel": "Fill color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "fill.loading-mask": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 60%",
+      "dark": "{palette.neutral.00}, 60%"
+    },
+    "$resolved": {
+      "light": "#ffffff99",
+      "dark": "#0a0a0a99"
+    },
+    "$description": "Used for loading process colors, such as masks behind loading data in dropdown panels, skeletons, and placeholders",
+    "$extensions": {
+      "id": "fill-loading-mask",
+      "name": "fill/loading-mask",
+      "category": "fill",
+      "categoryLabel": "Fill color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "fill.img-mask": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 0%",
+      "dark": "#000000, 12%"
+    },
+    "$resolved": {
+      "light": "#ffffff00",
+      "dark": "#0000001f"
+    },
+    "$description": "Used to darken images and avoid overexposure of large images in dark mode; this token can darken images and is fully transparent in Light Mode",
+    "$extensions": {
+      "id": "fill-img-mask",
+      "name": "fill/img-mask",
+      "category": "fill",
+      "categoryLabel": "Fill color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "static.black": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000",
+      "dark": "#000000"
+    },
+    "$resolved": {
+      "light": "#000000",
+      "dark": "#000000"
+    },
+    "$description": "Static black, unchanged between light and dark modes",
+    "$extensions": {
+      "id": "static-black",
+      "name": "static/black",
+      "category": "static",
+      "categoryLabel": "Fixed color value",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "static.white": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff",
+      "dark": "#ffffff"
+    },
+    "$resolved": {
+      "light": "#ffffff",
+      "dark": "#ffffff"
+    },
+    "$description": "Static white, unchanged between light and dark modes, often used for text and icons on filled colors",
+    "$extensions": {
+      "id": "static-white",
+      "name": "static/white",
+      "category": "static",
+      "categoryLabel": "Fixed color value",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "static.white-hover": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 10%",
+      "dark": "#ffffff, 10%"
+    },
+    "$resolved": {
+      "light": "#ffffff1a",
+      "dark": "#ffffff1a"
+    },
+    "$description": "Static white hover state",
+    "$extensions": {
+      "id": "static-white-hover",
+      "name": "static/white-hover",
+      "category": "static",
+      "categoryLabel": "Fixed color value",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "static.white-pressed": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 20%",
+      "dark": "#ffffff, 20%"
+    },
+    "$resolved": {
+      "light": "#ffffff33",
+      "dark": "#ffffff33"
+    },
+    "$description": "Static white pressed state",
+    "$extensions": {
+      "id": "static-white-pressed",
+      "name": "static/white-pressed",
+      "category": "static",
+      "categoryLabel": "Fixed color value",
+      "priority": "P0",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N00 5%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 5%",
+      "dark": "{palette.neutral.00}, 5%"
+    },
+    "$resolved": {
+      "light": "#ffffff0d",
+      "dark": "#0a0a0a0d"
+    },
+    "$description": "N00 white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N00-5",
+      "name": "transparent/neutral/N00 5%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N00 10%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 10%",
+      "dark": "{palette.neutral.00}, 10%"
+    },
+    "$resolved": {
+      "light": "#ffffff1a",
+      "dark": "#0a0a0a1a"
+    },
+    "$description": "N00 white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N00-10",
+      "name": "transparent/neutral/N00 10%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N00 15%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 15%",
+      "dark": "{palette.neutral.00}, 15%"
+    },
+    "$resolved": {
+      "light": "#ffffff26",
+      "dark": "#0a0a0a26"
+    },
+    "$description": "N00 white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N00-15",
+      "name": "transparent/neutral/N00 15%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N00 20%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 20%",
+      "dark": "{palette.neutral.00}, 20%"
+    },
+    "$resolved": {
+      "light": "#ffffff33",
+      "dark": "#0a0a0a33"
+    },
+    "$description": "N00 white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N00-20",
+      "name": "transparent/neutral/N00 20%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N00 30%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 30%",
+      "dark": "{palette.neutral.00}, 30%"
+    },
+    "$resolved": {
+      "light": "#ffffff4c",
+      "dark": "#0a0a0a4c"
+    },
+    "$description": "N00 white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N00-30",
+      "name": "transparent/neutral/N00 30%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N00 40%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 40%",
+      "dark": "{palette.neutral.00}, 40%"
+    },
+    "$resolved": {
+      "light": "#ffffff66",
+      "dark": "#0a0a0a66"
+    },
+    "$description": "N00 white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N00-40",
+      "name": "transparent/neutral/N00 40%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N00 50%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 50%",
+      "dark": "{palette.neutral.00}, 50%"
+    },
+    "$resolved": {
+      "light": "#ffffff80",
+      "dark": "#0a0a0a80"
+    },
+    "$description": "N00 white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N00-50",
+      "name": "transparent/neutral/N00 50%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N00 60%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 60%",
+      "dark": "{palette.neutral.00}, 60%"
+    },
+    "$resolved": {
+      "light": "#ffffff99",
+      "dark": "#0a0a0a99"
+    },
+    "$description": "N00 white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N00-60",
+      "name": "transparent/neutral/N00 60%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N00 70%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 70%",
+      "dark": "{palette.neutral.00}, 70%"
+    },
+    "$resolved": {
+      "light": "#ffffffb2",
+      "dark": "#0a0a0ab2"
+    },
+    "$description": "N00 white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N00-70",
+      "name": "transparent/neutral/N00 70%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N00 80%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 80%",
+      "dark": "{palette.neutral.00}, 80%"
+    },
+    "$resolved": {
+      "light": "#ffffffcc",
+      "dark": "#0a0a0acc"
+    },
+    "$description": "N00 white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N00-80",
+      "name": "transparent/neutral/N00 80%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N00 90%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.00}, 90%",
+      "dark": "{palette.neutral.00}, 90%"
+    },
+    "$resolved": {
+      "light": "#ffffffe6",
+      "dark": "#0a0a0ae6"
+    },
+    "$description": "N00 white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N00-90",
+      "name": "transparent/neutral/N00 90%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N900 5%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 5%",
+      "dark": "{palette.neutral.900}, 5%"
+    },
+    "$resolved": {
+      "light": "#1f23290d",
+      "dark": "#ebebeb0d"
+    },
+    "$description": "N900 black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N900-5",
+      "name": "transparent/neutral/N900 5%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N900 10%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 10%",
+      "dark": "{palette.neutral.900}, 10%"
+    },
+    "$resolved": {
+      "light": "#1f23291a",
+      "dark": "#ebebeb1a"
+    },
+    "$description": "N900 black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N900-10",
+      "name": "transparent/neutral/N900 10%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N900 15%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 15%",
+      "dark": "{palette.neutral.900}, 15%"
+    },
+    "$resolved": {
+      "light": "#1f232926",
+      "dark": "#ebebeb26"
+    },
+    "$description": "N900 black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N900-15",
+      "name": "transparent/neutral/N900 15%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N900 20%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 20%",
+      "dark": "{palette.neutral.900}, 20%"
+    },
+    "$resolved": {
+      "light": "#1f232933",
+      "dark": "#ebebeb33"
+    },
+    "$description": "N900 black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N900-20",
+      "name": "transparent/neutral/N900 20%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N900 30%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 30%",
+      "dark": "{palette.neutral.900}, 30%"
+    },
+    "$resolved": {
+      "light": "#1f23294c",
+      "dark": "#ebebeb4c"
+    },
+    "$description": "N900 black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N900-30",
+      "name": "transparent/neutral/N900 30%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N900 40%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 40%",
+      "dark": "{palette.neutral.900}, 40%"
+    },
+    "$resolved": {
+      "light": "#1f232966",
+      "dark": "#ebebeb66"
+    },
+    "$description": "N900 black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N900-40",
+      "name": "transparent/neutral/N900 40%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N900 50%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 50%",
+      "dark": "{palette.neutral.900}, 50%"
+    },
+    "$resolved": {
+      "light": "#1f232980",
+      "dark": "#ebebeb80"
+    },
+    "$description": "N900 black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N900-50",
+      "name": "transparent/neutral/N900 50%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N900 60%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 60%",
+      "dark": "{palette.neutral.900}, 60%"
+    },
+    "$resolved": {
+      "light": "#1f232999",
+      "dark": "#ebebeb99"
+    },
+    "$description": "N900 black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N900-60",
+      "name": "transparent/neutral/N900 60%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N900 70%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 70%",
+      "dark": "{palette.neutral.900}, 70%"
+    },
+    "$resolved": {
+      "light": "#1f2329b2",
+      "dark": "#ebebebb2"
+    },
+    "$description": "N900 black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N900-70",
+      "name": "transparent/neutral/N900 70%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N900 80%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 80%",
+      "dark": "{palette.neutral.900}, 80%"
+    },
+    "$resolved": {
+      "light": "#1f2329cc",
+      "dark": "#ebebebcc"
+    },
+    "$description": "N900 black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N900-80",
+      "name": "transparent/neutral/N900 80%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.neutral.N900 90%": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.900}, 90%",
+      "dark": "{palette.neutral.900}, 90%"
+    },
+    "$resolved": {
+      "light": "#1f2329e6",
+      "dark": "#ebebebe6"
+    },
+    "$description": "N900 black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "N900-90",
+      "name": "transparent/neutral/N900 90%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.white 5%": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 5%",
+      "dark": "#ffffff, 5%"
+    },
+    "$resolved": {
+      "light": "#ffffff0d",
+      "dark": "#ffffff0d"
+    },
+    "$description": "static white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-white-5",
+      "name": "transparent/static/white 5%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.white 10%": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 10%",
+      "dark": "#ffffff, 10%"
+    },
+    "$resolved": {
+      "light": "#ffffff1a",
+      "dark": "#ffffff1a"
+    },
+    "$description": "static white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-white-10",
+      "name": "transparent/static/white 10%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.white 15%": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 15%",
+      "dark": "#ffffff, 15%"
+    },
+    "$resolved": {
+      "light": "#ffffff26",
+      "dark": "#ffffff26"
+    },
+    "$description": "static white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-white-15",
+      "name": "transparent/static/white 15%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.white 20%": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 20%",
+      "dark": "#ffffff, 20%"
+    },
+    "$resolved": {
+      "light": "#ffffff33",
+      "dark": "#ffffff33"
+    },
+    "$description": "static white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-white-20",
+      "name": "transparent/static/white 20%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.white 30%": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 30%",
+      "dark": "#ffffff, 30%"
+    },
+    "$resolved": {
+      "light": "#ffffff4c",
+      "dark": "#ffffff4c"
+    },
+    "$description": "static white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-white-30",
+      "name": "transparent/static/white 30%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.white 40%": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 40%",
+      "dark": "#ffffff, 40%"
+    },
+    "$resolved": {
+      "light": "#ffffff66",
+      "dark": "#ffffff66"
+    },
+    "$description": "static white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-white-40",
+      "name": "transparent/static/white 40%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.white 50%": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 50%",
+      "dark": "#ffffff, 50%"
+    },
+    "$resolved": {
+      "light": "#ffffff80",
+      "dark": "#ffffff80"
+    },
+    "$description": "static white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-white-50",
+      "name": "transparent/static/white 50%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.white 60%": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 60%",
+      "dark": "#ffffff, 60%"
+    },
+    "$resolved": {
+      "light": "#ffffff99",
+      "dark": "#ffffff99"
+    },
+    "$description": "static white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-white-60",
+      "name": "transparent/static/white 60%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.white 70%": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 70%",
+      "dark": "#ffffff, 70%"
+    },
+    "$resolved": {
+      "light": "#ffffffb2",
+      "dark": "#ffffffb2"
+    },
+    "$description": "static white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-white-70",
+      "name": "transparent/static/white 70%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.white 80%": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 80%",
+      "dark": "#ffffff, 80%"
+    },
+    "$resolved": {
+      "light": "#ffffffcc",
+      "dark": "#ffffffcc"
+    },
+    "$description": "static white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-white-80",
+      "name": "transparent/static/white 80%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.white 90%": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff, 90%",
+      "dark": "#ffffff, 90%"
+    },
+    "$resolved": {
+      "light": "#ffffffe6",
+      "dark": "#ffffffe6"
+    },
+    "$description": "static white gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-white-90",
+      "name": "transparent/static/white 90%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.black 5%": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000, 5%",
+      "dark": "#000000, 5%"
+    },
+    "$resolved": {
+      "light": "#0000000d",
+      "dark": "#0000000d"
+    },
+    "$description": "static black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-black-5",
+      "name": "transparent/static/black 5%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.black 10%": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000, 10%",
+      "dark": "#000000, 10%"
+    },
+    "$resolved": {
+      "light": "#0000001a",
+      "dark": "#0000001a"
+    },
+    "$description": "static black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-black-10",
+      "name": "transparent/static/black 10%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.black 15%": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000, 15%",
+      "dark": "#000000, 15%"
+    },
+    "$resolved": {
+      "light": "#00000026",
+      "dark": "#00000026"
+    },
+    "$description": "static black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-black-15",
+      "name": "transparent/static/black 15%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.black 20%": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000, 20%",
+      "dark": "#000000, 20%"
+    },
+    "$resolved": {
+      "light": "#00000033",
+      "dark": "#00000033"
+    },
+    "$description": "static black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-black-20",
+      "name": "transparent/static/black 20%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.black 30%": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000, 30%",
+      "dark": "#000000, 30%"
+    },
+    "$resolved": {
+      "light": "#0000004c",
+      "dark": "#0000004c"
+    },
+    "$description": "static black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-black-30",
+      "name": "transparent/static/black 30%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.black 40%": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000, 40%",
+      "dark": "#000000, 40%"
+    },
+    "$resolved": {
+      "light": "#00000066",
+      "dark": "#00000066"
+    },
+    "$description": "static black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-black-40",
+      "name": "transparent/static/black 40%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.black 50%": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000, 50%",
+      "dark": "#000000, 50%"
+    },
+    "$resolved": {
+      "light": "#00000080",
+      "dark": "#00000080"
+    },
+    "$description": "static black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-black-50",
+      "name": "transparent/static/black 50%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.black 60%": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000, 60%",
+      "dark": "#000000, 60%"
+    },
+    "$resolved": {
+      "light": "#00000099",
+      "dark": "#00000099"
+    },
+    "$description": "static black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-black-60",
+      "name": "transparent/static/black 60%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.black 70%": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000, 70%",
+      "dark": "#000000, 70%"
+    },
+    "$resolved": {
+      "light": "#000000b2",
+      "dark": "#000000b2"
+    },
+    "$description": "static black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-black-70",
+      "name": "transparent/static/black 70%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.black 80%": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000, 80%",
+      "dark": "#000000, 80%"
+    },
+    "$resolved": {
+      "light": "#000000cc",
+      "dark": "#000000cc"
+    },
+    "$description": "static black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-black-80",
+      "name": "transparent/static/black 80%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "transparent.static.black 90%": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000, 90%",
+      "dark": "#000000, 90%"
+    },
+    "$resolved": {
+      "light": "#000000e6",
+      "dark": "#000000e6"
+    },
+    "$description": "static black gradient color for more granular scenarios; prefer semantically explicit tokens",
+    "$extensions": {
+      "id": "static-black-90",
+      "name": "transparent/static/black 90%",
+      "category": "Opacity",
+      "categoryLabel": "Opacity",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.red": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.red.400}",
+      "dark": "{palette.red.500}"
+    },
+    "$resolved": {
+      "light": "#f54a45",
+      "dark": "#f05b56"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-red",
+      "name": "colorful/red",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.orange": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.orange.350}",
+      "dark": "{palette.orange.600}"
+    },
+    "$resolved": {
+      "light": "#ff811a",
+      "dark": "#f3871b"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-orange",
+      "name": "colorful/orange",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.yellow": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.yellow.350}",
+      "dark": "{palette.yellow.500}"
+    },
+    "$resolved": {
+      "light": "#ffc60a",
+      "dark": "#f0b622"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-yellow",
+      "name": "colorful/yellow",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.green": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.green.350}",
+      "dark": "{palette.green.500}"
+    },
+    "$resolved": {
+      "light": "#35bd4b",
+      "dark": "#419e34"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-green",
+      "name": "colorful/green",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.blue": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.blue.500}",
+      "dark": "{palette.blue.500}"
+    },
+    "$resolved": {
+      "light": "#336df4",
+      "dark": "#4c88ff"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-blue",
+      "name": "colorful/blue",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.purple": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.purple.500}",
+      "dark": "{palette.purple.400}"
+    },
+    "$resolved": {
+      "light": "#8d55ed",
+      "dark": "#8c55ec"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-purple",
+      "name": "colorful/purple",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.neutral": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.neutral.500}",
+      "dark": "{palette.neutral.500}"
+    },
+    "$resolved": {
+      "light": "#8f959e",
+      "dark": "#757575"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-neutral",
+      "name": "colorful/neutral",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.carmine": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.carmine.400}",
+      "dark": "{palette.carmine.400}"
+    },
+    "$resolved": {
+      "light": "#df58a5",
+      "dark": "#c24a8e"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-carmine",
+      "name": "colorful/carmine",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.sunflower": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.sunflower.350}",
+      "dark": "{palette.sunflower.500}"
+    },
+    "$resolved": {
+      "light": "#ffe928",
+      "dark": "#e5cd17"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-sunflower",
+      "name": "colorful/sunflower",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.lime": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.lime.350}",
+      "dark": "{palette.lime.600}"
+    },
+    "$resolved": {
+      "light": "#91ad00",
+      "dark": "#93af04"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-lime",
+      "name": "colorful/lime",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.turquoise": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.turquoise.350}",
+      "dark": "{palette.turquoise.500}"
+    },
+    "$resolved": {
+      "light": "#2dbeab",
+      "dark": "#1fa18f"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-turquoise",
+      "name": "colorful/turquoise",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.wathet": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.wathet.350}",
+      "dark": "{palette.wathet.500}"
+    },
+    "$resolved": {
+      "light": "#25b0e7",
+      "dark": "#1099cc"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-wathet",
+      "name": "colorful/wathet",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.indigo": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.indigo.500}",
+      "dark": "{palette.indigo.400}"
+    },
+    "$resolved": {
+      "light": "#5b65f5",
+      "dark": "#5e68e8"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-indigo",
+      "name": "colorful/indigo",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  },
+  "colorful.violet": {
+    "$type": "color",
+    "$value": {
+      "light": "{palette.violet.500}",
+      "dark": "{palette.violet.400}"
+    },
+    "$resolved": {
+      "light": "#bf3dbf",
+      "dark": "#b54ab5"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "colorful-violet",
+      "name": "colorful/violet",
+      "category": "Colorful color",
+      "categoryLabel": "Colorful color",
+      "priority": "",
+      "source": "Universe Design"
+    }
+  }
+}

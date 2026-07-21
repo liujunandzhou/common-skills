@@ -74,3 +74,24 @@ done
 ```
 
 > 注意:`.claude/skills/` 下的 skill 目录名需全局唯一,避免跨包重名冲突。
+
+## 非 submodule 来源的 vendored skill(AgentBuddy 内部市场)
+
+个别 skill 只发布在字节内部 skill 市场 `skills.byted.org`(AgentBuddy),**不在 GitHub**,无法作为 git submodule 引入。这类 skill 直接以**普通目录**vendored 在 `repo/<name>/` 下(不进 `.gitmodules`),`install.sh` 照样会扫描并软链。
+
+目前只有一个:
+
+| Skill | 来源 | 版本 |
+|---|---|---|
+| `lark-design-prototype` | `skills.byted.org/lark/universe_design`(AgentBuddy,非 submodule) | 1.0.4 |
+
+更新 / 重新拉取(agentbuddy 仅作一次性下载,仓库运行时不依赖它):
+
+```bash
+# 下载到临时目录,再覆盖 repo/lark-design-prototype/
+tmp=$(mktemp -d) && (cd "$tmp" && npm_config_registry="https://bnpm.byted.org" \
+  npx --yes agentbuddy@latest skill add skills.byted.org/lark/universe_design \
+  --skill lark-design-prototype --version <ver> -a claude-code -y --copy)
+rm -rf repo/lark-design-prototype && cp -R "$tmp/.claude/skills/lark-design-prototype" repo/lark-design-prototype
+./install.sh
+```

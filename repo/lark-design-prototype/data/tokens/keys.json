@@ -1,0 +1,2214 @@
+{
+  "blue.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#f0f4ff",
+      "dark": "#152340"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "B50",
+      "name": "palette/blue/50",
+      "category": "blue",
+      "source": "Universe Design"
+    }
+  },
+  "blue.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#e0e9ff",
+      "dark": "#173166"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "B100",
+      "name": "palette/blue/100",
+      "category": "blue",
+      "source": "Universe Design"
+    }
+  },
+  "blue.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#c2d4ff",
+      "dark": "#194294"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "B200",
+      "name": "palette/blue/200",
+      "category": "blue",
+      "source": "Universe Design"
+    }
+  },
+  "blue.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#94b4ff",
+      "dark": "#2655b6"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "B300",
+      "name": "palette/blue/300",
+      "category": "blue",
+      "source": "Universe Design"
+    }
+  },
+  "blue.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#7aa2ff",
+      "dark": "#275fce"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "B350",
+      "name": "palette/blue/350",
+      "category": "blue",
+      "source": "Universe Design"
+    }
+  },
+  "blue.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#5083fb",
+      "dark": "#3370eb"
+    },
+    "$description": "Blue",
+    "$extensions": {
+      "id": "B400",
+      "name": "palette/blue/400",
+      "category": "blue",
+      "source": "Universe Design"
+    }
+  },
+  "blue.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#336df4",
+      "dark": "#4c88ff"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "B500",
+      "name": "palette/blue/500",
+      "category": "blue",
+      "source": "Universe Design"
+    }
+  },
+  "blue.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#1456f0",
+      "dark": "#75a4ff"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "B600",
+      "name": "palette/blue/600",
+      "category": "blue",
+      "source": "Universe Design"
+    }
+  },
+  "blue.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#0442d2",
+      "dark": "#8fb4ff"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "B700",
+      "name": "palette/blue/700",
+      "category": "blue",
+      "source": "Universe Design"
+    }
+  },
+  "blue.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#002f9e",
+      "dark": "#bdd2ff"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "B800",
+      "name": "palette/blue/800",
+      "category": "blue",
+      "source": "Universe Design"
+    }
+  },
+  "blue.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#002270",
+      "dark": "#e0e9ff"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "B900",
+      "name": "palette/blue/900",
+      "category": "blue",
+      "source": "Universe Design"
+    }
+  },
+  "carmine.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#fef0f8",
+      "dark": "#3a182b"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "C50",
+      "name": "palette/carmine/50",
+      "category": "carmine",
+      "source": "Universe Design"
+    }
+  },
+  "carmine.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#fee2f2",
+      "dark": "#591c3f"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "C100",
+      "name": "palette/carmine/100",
+      "category": "carmine",
+      "source": "Universe Design"
+    }
+  },
+  "carmine.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#f8c4e1",
+      "dark": "#782b57"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "C200",
+      "name": "palette/carmine/200",
+      "category": "carmine",
+      "source": "Universe Design"
+    }
+  },
+  "carmine.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#f598cc",
+      "dark": "#94386c"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "C300",
+      "name": "palette/carmine/300",
+      "category": "carmine",
+      "source": "Universe Design"
+    }
+  },
+  "carmine.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#eb78b8",
+      "dark": "#ab417d"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "C350",
+      "name": "palette/carmine/350",
+      "category": "carmine",
+      "source": "Universe Design"
+    }
+  },
+  "carmine.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#df58a5",
+      "dark": "#c24a8e"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "C400",
+      "name": "palette/carmine/400",
+      "category": "carmine",
+      "source": "Universe Design"
+    }
+  },
+  "carmine.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#cc398c",
+      "dark": "#db5ea4"
+    },
+    "$description": "Pink",
+    "$extensions": {
+      "id": "C500",
+      "name": "palette/carmine/500",
+      "category": "carmine",
+      "source": "Universe Design"
+    }
+  },
+  "carmine.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#b82879",
+      "dark": "#ed77ba"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "C600",
+      "name": "palette/carmine/600",
+      "category": "carmine",
+      "source": "Universe Design"
+    }
+  },
+  "carmine.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#9d1562",
+      "dark": "#fc94cf"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "C700",
+      "name": "palette/carmine/700",
+      "category": "carmine",
+      "source": "Universe Design"
+    }
+  },
+  "carmine.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#730744",
+      "dark": "#ffc2e5"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "C800",
+      "name": "palette/carmine/800",
+      "category": "carmine",
+      "source": "Universe Design"
+    }
+  },
+  "carmine.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#550c35",
+      "dark": "#ffe0f2"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "C900",
+      "name": "palette/carmine/900",
+      "category": "carmine",
+      "source": "Universe Design"
+    }
+  },
+  "green.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#e4fae1",
+      "dark": "#0e2b0a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "G50",
+      "name": "palette/green/50",
+      "category": "green",
+      "source": "Universe Design"
+    }
+  },
+  "green.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#d0f5ce",
+      "dark": "#173b12"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "G100",
+      "name": "palette/green/100",
+      "category": "green",
+      "source": "Universe Design"
+    }
+  },
+  "green.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#95e599",
+      "dark": "#21511a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "G200",
+      "name": "palette/green/200",
+      "category": "green",
+      "source": "Universe Design"
+    }
+  },
+  "green.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#5cd168",
+      "dark": "#296621"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "G300",
+      "name": "palette/green/300",
+      "category": "green",
+      "source": "Universe Design"
+    }
+  },
+  "green.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#35bd4b",
+      "dark": "#2f7526"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "G350",
+      "name": "palette/green/350",
+      "category": "green",
+      "source": "Universe Design"
+    }
+  },
+  "green.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#32a645",
+      "dark": "#35872a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "G400",
+      "name": "palette/green/400",
+      "category": "green",
+      "source": "Universe Design"
+    }
+  },
+  "green.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#258832",
+      "dark": "#419e34"
+    },
+    "$description": "Green",
+    "$extensions": {
+      "id": "G500",
+      "name": "palette/green/500",
+      "category": "green",
+      "source": "Universe Design"
+    }
+  },
+  "green.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#1a7526",
+      "dark": "#51ba43"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "G600",
+      "name": "palette/green/600",
+      "category": "green",
+      "source": "Universe Design"
+    }
+  },
+  "green.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#0b6017",
+      "dark": "#69cc5c"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "G700",
+      "name": "palette/green/700",
+      "category": "green",
+      "source": "Universe Design"
+    }
+  },
+  "green.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#04430c",
+      "dark": "#99e490"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "G800",
+      "name": "palette/green/800",
+      "category": "green",
+      "source": "Universe Design"
+    }
+  },
+  "green.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#022c07",
+      "dark": "#cbf5c6"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "G900",
+      "name": "palette/green/900",
+      "category": "green",
+      "source": "Universe Design"
+    }
+  },
+  "indigo.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#f2f3fd",
+      "dark": "#1e204a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "I50",
+      "name": "palette/indigo/50",
+      "category": "indigo",
+      "source": "Universe Design"
+    }
+  },
+  "indigo.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#e9eafb",
+      "dark": "#2a2d69"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "I100",
+      "name": "palette/indigo/100",
+      "category": "indigo",
+      "source": "Universe Design"
+    }
+  },
+  "indigo.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#cccff9",
+      "dark": "#373d90"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "I200",
+      "name": "palette/indigo/200",
+      "category": "indigo",
+      "source": "Universe Design"
+    }
+  },
+  "indigo.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#abb0f2",
+      "dark": "#474fb8"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "I300",
+      "name": "palette/indigo/300",
+      "category": "indigo",
+      "source": "Universe Design"
+    }
+  },
+  "indigo.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#959bee",
+      "dark": "#515ad6"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "I350",
+      "name": "palette/indigo/350",
+      "category": "indigo",
+      "source": "Universe Design"
+    }
+  },
+  "indigo.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#757df0",
+      "dark": "#5e68e8"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "I400",
+      "name": "palette/indigo/400",
+      "category": "indigo",
+      "source": "Universe Design"
+    }
+  },
+  "indigo.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#5b65f5",
+      "dark": "#7b83f7"
+    },
+    "$description": "Indigo",
+    "$extensions": {
+      "id": "I500",
+      "name": "palette/indigo/500",
+      "category": "indigo",
+      "source": "Universe Design"
+    }
+  },
+  "indigo.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#4752e6",
+      "dark": "#9499f7"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "I600",
+      "name": "palette/indigo/600",
+      "category": "indigo",
+      "source": "Universe Design"
+    }
+  },
+  "indigo.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#333dcc",
+      "dark": "#aaaff8"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "I700",
+      "name": "palette/indigo/700",
+      "category": "indigo",
+      "source": "Universe Design"
+    }
+  },
+  "indigo.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#1e27a4",
+      "dark": "#cdd0f9"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "I800",
+      "name": "palette/indigo/800",
+      "category": "indigo",
+      "source": "Universe Design"
+    }
+  },
+  "indigo.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#151b70",
+      "dark": "#e7e9fe"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "I900",
+      "name": "palette/indigo/900",
+      "category": "indigo",
+      "source": "Universe Design"
+    }
+  },
+  "lime.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#f2f8d3",
+      "dark": "#212702"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "L50",
+      "name": "palette/lime/50",
+      "category": "lime",
+      "source": "Universe Design"
+    }
+  },
+  "lime.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#e3f0a3",
+      "dark": "#303804"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "L100",
+      "name": "palette/lime/100",
+      "category": "lime",
+      "source": "Universe Design"
+    }
+  },
+  "lime.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#c8dd5f",
+      "dark": "#404c06"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "L200",
+      "name": "palette/lime/200",
+      "category": "lime",
+      "source": "Universe Design"
+    }
+  },
+  "lime.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#a2c10b",
+      "dark": "#53610a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "L300",
+      "name": "palette/lime/300",
+      "category": "lime",
+      "source": "Universe Design"
+    }
+  },
+  "lime.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#91ad00",
+      "dark": "#5f700a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "L350",
+      "name": "palette/lime/350",
+      "category": "lime",
+      "source": "Universe Design"
+    }
+  },
+  "lime.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#7b9207",
+      "dark": "#6b7f05"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "L400",
+      "name": "palette/lime/400",
+      "category": "lime",
+      "source": "Universe Design"
+    }
+  },
+  "lime.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#6b7f06",
+      "dark": "#82990a"
+    },
+    "$description": "Lime green",
+    "$extensions": {
+      "id": "L500",
+      "name": "palette/lime/500",
+      "category": "lime",
+      "source": "Universe Design"
+    }
+  },
+  "lime.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#5c6d08",
+      "dark": "#93af04"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "L600",
+      "name": "palette/lime/600",
+      "category": "lime",
+      "source": "Universe Design"
+    }
+  },
+  "lime.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#4a5804",
+      "dark": "#a6c313"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "L700",
+      "name": "palette/lime/700",
+      "category": "lime",
+      "source": "Universe Design"
+    }
+  },
+  "lime.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#333d00",
+      "dark": "#c2e12d"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "L800",
+      "name": "palette/lime/800",
+      "category": "lime",
+      "source": "Universe Design"
+    }
+  },
+  "lime.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#262e00",
+      "dark": "#e3f391"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "L900",
+      "name": "palette/lime/900",
+      "category": "lime",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.00": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffff",
+      "dark": "#0a0a0a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N00",
+      "name": "palette/neutral/00",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#f5f6f7",
+      "dark": "#1a1a1a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N50",
+      "name": "palette/neutral/50",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#f2f3f5",
+      "dark": "#292929"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N100",
+      "name": "palette/neutral/100",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#eff0f1",
+      "dark": "#373737"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N200",
+      "name": "palette/neutral/200",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#dee0e3",
+      "dark": "#434343"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N300",
+      "name": "palette/neutral/300",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#d0d3d6",
+      "dark": "#505050"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N350",
+      "name": "palette/neutral/350",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#bbbfc4",
+      "dark": "#5f5f5f"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N400",
+      "name": "palette/neutral/400",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#8f959e",
+      "dark": "#757575"
+    },
+    "$description": "Neutral color",
+    "$extensions": {
+      "id": "N500",
+      "name": "palette/neutral/500",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#646a73",
+      "dark": "#a6a6a6"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N600",
+      "name": "palette/neutral/600",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.650": {
+    "$type": "color",
+    "$value": {
+      "light": "#51565d",
+      "dark": "#cfcfcf"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N650",
+      "name": "palette/neutral/650",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#373c43",
+      "dark": "#e0e0e0"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N700",
+      "name": "palette/neutral/700",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#2b2f36",
+      "dark": "#e8e8e8"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N800",
+      "name": "palette/neutral/800",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#1f2329",
+      "dark": "#ebebeb"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N900",
+      "name": "palette/neutral/900",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.950": {
+    "$type": "color",
+    "$value": {
+      "light": "#0f1114",
+      "dark": "#f8f8f8"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N950",
+      "name": "palette/neutral/950",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "neutral.1000": {
+    "$type": "color",
+    "$value": {
+      "light": "#000000",
+      "dark": "#ffffff"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "N1000",
+      "name": "palette/neutral/1000",
+      "category": "neutral",
+      "source": "Universe Design"
+    }
+  },
+  "orange.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#fff3e5",
+      "dark": "#33210b"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "O50",
+      "name": "palette/orange/50",
+      "category": "orange",
+      "source": "Universe Design"
+    }
+  },
+  "orange.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#fee7cd",
+      "dark": "#4a2b10"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "O100",
+      "name": "palette/orange/100",
+      "category": "orange",
+      "source": "Universe Design"
+    }
+  },
+  "orange.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#fec48b",
+      "dark": "#683a12"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "O200",
+      "name": "palette/orange/200",
+      "category": "orange",
+      "source": "Universe Design"
+    }
+  },
+  "orange.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#ff9d4c",
+      "dark": "#8a4a19"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "O300",
+      "name": "palette/orange/300",
+      "category": "orange",
+      "source": "Universe Design"
+    }
+  },
+  "orange.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#ff811a",
+      "dark": "#a15317"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "O350",
+      "name": "palette/orange/350",
+      "category": "orange",
+      "source": "Universe Design"
+    }
+  },
+  "orange.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#ed6d0c",
+      "dark": "#b85e1a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "O400",
+      "name": "palette/orange/400",
+      "category": "orange",
+      "source": "Universe Design"
+    }
+  },
+  "orange.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#c25705",
+      "dark": "#db7018"
+    },
+    "$description": "Orange",
+    "$extensions": {
+      "id": "O500",
+      "name": "palette/orange/500",
+      "category": "orange",
+      "source": "Universe Design"
+    }
+  },
+  "orange.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#a44904",
+      "dark": "#f3871b"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "O600",
+      "name": "palette/orange/600",
+      "category": "orange",
+      "source": "Universe Design"
+    }
+  },
+  "orange.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#853a05",
+      "dark": "#f89e44"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "O700",
+      "name": "palette/orange/700",
+      "category": "orange",
+      "source": "Universe Design"
+    }
+  },
+  "orange.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#642b02",
+      "dark": "#fec88b"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "O800",
+      "name": "palette/orange/800",
+      "category": "orange",
+      "source": "Universe Design"
+    }
+  },
+  "orange.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#3b1a02",
+      "dark": "#fee7cd"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "O900",
+      "name": "palette/orange/900",
+      "category": "orange",
+      "source": "Universe Design"
+    }
+  },
+  "purple.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#f5f0fe",
+      "dark": "#2b194a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "P50",
+      "name": "palette/purple/50",
+      "category": "purple",
+      "source": "Universe Design"
+    }
+  },
+  "purple.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#efe6fe",
+      "dark": "#3f2073"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "P100",
+      "name": "palette/purple/100",
+      "category": "purple",
+      "source": "Universe Design"
+    }
+  },
+  "purple.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#dcc9fd",
+      "dark": "#5529a3"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "P200",
+      "name": "palette/purple/200",
+      "category": "purple",
+      "source": "Universe Design"
+    }
+  },
+  "purple.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#c8a9fc",
+      "dark": "#6c39c6"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "P300",
+      "name": "palette/purple/300",
+      "category": "purple",
+      "source": "Universe Design"
+    }
+  },
+  "purple.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#b791fa",
+      "dark": "#7c4ad4"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "P350",
+      "name": "palette/purple/350",
+      "category": "purple",
+      "source": "Universe Design"
+    }
+  },
+  "purple.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#9f6ff1",
+      "dark": "#8c55ec"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "P400",
+      "name": "palette/purple/400",
+      "category": "purple",
+      "source": "Universe Design"
+    }
+  },
+  "purple.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#8d55ed",
+      "dark": "#a575fa"
+    },
+    "$description": "Purple",
+    "$extensions": {
+      "id": "P500",
+      "name": "palette/purple/500",
+      "category": "purple",
+      "source": "Universe Design"
+    }
+  },
+  "purple.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#7a35f0",
+      "dark": "#b88ffe"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "P600",
+      "name": "palette/purple/600",
+      "category": "purple",
+      "source": "Universe Design"
+    }
+  },
+  "purple.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#611fd6",
+      "dark": "#c5a3ff"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "P700",
+      "name": "palette/purple/700",
+      "category": "purple",
+      "source": "Universe Design"
+    }
+  },
+  "purple.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#4811a6",
+      "dark": "#dbc8fd"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "P800",
+      "name": "palette/purple/800",
+      "category": "purple",
+      "source": "Universe Design"
+    }
+  },
+  "purple.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#2f0080",
+      "dark": "#efe5ff"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "P900",
+      "name": "palette/purple/900",
+      "category": "purple",
+      "source": "Universe Design"
+    }
+  },
+  "red.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#fef0f0",
+      "dark": "#3d1a19"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "R50",
+      "name": "palette/red/50",
+      "category": "red",
+      "source": "Universe Design"
+    }
+  },
+  "red.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#fee3e2",
+      "dark": "#591f1d"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "R100",
+      "name": "palette/red/100",
+      "category": "red",
+      "source": "Universe Design"
+    }
+  },
+  "red.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#fdc6c4",
+      "dark": "#7b2524"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "R200",
+      "name": "palette/red/200",
+      "category": "red",
+      "source": "Universe Design"
+    }
+  },
+  "red.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#f89e9b",
+      "dark": "#a03331"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "R300",
+      "name": "palette/red/300",
+      "category": "red",
+      "source": "Universe Design"
+    }
+  },
+  "red.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#ff7570",
+      "dark": "#b33a37"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "R350",
+      "name": "palette/red/350",
+      "category": "red",
+      "source": "Universe Design"
+    }
+  },
+  "red.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#f54a45",
+      "dark": "#d14642"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "R400",
+      "name": "palette/red/400",
+      "category": "red",
+      "source": "Universe Design"
+    }
+  },
+  "red.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#e22e28",
+      "dark": "#f05b56"
+    },
+    "$description": "Red",
+    "$extensions": {
+      "id": "R500",
+      "name": "palette/red/500",
+      "category": "red",
+      "source": "Universe Design"
+    }
+  },
+  "red.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#c02a26",
+      "dark": "#f6827e"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "R600",
+      "name": "palette/red/600",
+      "category": "red",
+      "source": "Universe Design"
+    }
+  },
+  "red.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#a11c17",
+      "dark": "#f89e9b"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "R700",
+      "name": "palette/red/700",
+      "category": "red",
+      "source": "Universe Design"
+    }
+  },
+  "red.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#741915",
+      "dark": "#fdc6c4"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "R800",
+      "name": "palette/red/800",
+      "category": "red",
+      "source": "Universe Design"
+    }
+  },
+  "red.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#590603",
+      "dark": "#fee3e2"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "R900",
+      "name": "palette/red/900",
+      "category": "red",
+      "source": "Universe Design"
+    }
+  },
+  "sunflower.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffffdb",
+      "dark": "#29250a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "S50",
+      "name": "palette/sunflower/50",
+      "category": "sunflower",
+      "source": "Universe Design"
+    }
+  },
+  "sunflower.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#fffca3",
+      "dark": "#38320c"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "S100",
+      "name": "palette/sunflower/100",
+      "category": "sunflower",
+      "source": "Universe Design"
+    }
+  },
+  "sunflower.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#fff67a",
+      "dark": "#574d01"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "S200",
+      "name": "palette/sunflower/200",
+      "category": "sunflower",
+      "source": "Universe Design"
+    }
+  },
+  "sunflower.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#fff258",
+      "dark": "#7a6a01"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "S300",
+      "name": "palette/sunflower/300",
+      "category": "sunflower",
+      "source": "Universe Design"
+    }
+  },
+  "sunflower.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffe928",
+      "dark": "#9c8702"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "S350",
+      "name": "palette/sunflower/350",
+      "category": "sunflower",
+      "source": "Universe Design"
+    }
+  },
+  "sunflower.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#e5ce00",
+      "dark": "#c9b218"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "S400",
+      "name": "palette/sunflower/400",
+      "category": "sunflower",
+      "source": "Universe Design"
+    }
+  },
+  "sunflower.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#c2a800",
+      "dark": "#e5cd17"
+    },
+    "$description": "Sunflower yellow",
+    "$extensions": {
+      "id": "S500",
+      "name": "palette/sunflower/500",
+      "category": "sunflower",
+      "source": "Universe Design"
+    }
+  },
+  "sunflower.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#8f7c00",
+      "dark": "#f5df36"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "S600",
+      "name": "palette/sunflower/600",
+      "category": "sunflower",
+      "source": "Universe Design"
+    }
+  },
+  "sunflower.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#5c4f00",
+      "dark": "#f7e663"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "S700",
+      "name": "palette/sunflower/700",
+      "category": "sunflower",
+      "source": "Universe Design"
+    }
+  },
+  "sunflower.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#423700",
+      "dark": "#faed7a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "S800",
+      "name": "palette/sunflower/800",
+      "category": "sunflower",
+      "source": "Universe Design"
+    }
+  },
+  "sunflower.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#2c2502",
+      "dark": "#fff59e"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "S900",
+      "name": "palette/sunflower/900",
+      "category": "sunflower",
+      "source": "Universe Design"
+    }
+  },
+  "turquoise.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#e2f8f5",
+      "dark": "#132926"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "T50",
+      "name": "palette/turquoise/50",
+      "category": "turquoise",
+      "source": "Universe Design"
+    }
+  },
+  "turquoise.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#c4f2ec",
+      "dark": "#173b36"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "T100",
+      "name": "palette/turquoise/100",
+      "category": "turquoise",
+      "source": "Universe Design"
+    }
+  },
+  "turquoise.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#6fe8d8",
+      "dark": "#1d4e47"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "T200",
+      "name": "palette/turquoise/200",
+      "category": "turquoise",
+      "source": "Universe Design"
+    }
+  },
+  "turquoise.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#33d6c0",
+      "dark": "#25665e"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "T300",
+      "name": "palette/turquoise/300",
+      "category": "turquoise",
+      "source": "Universe Design"
+    }
+  },
+  "turquoise.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#2dbeab",
+      "dark": "#227369"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "T350",
+      "name": "palette/turquoise/350",
+      "category": "turquoise",
+      "source": "Universe Design"
+    }
+  },
+  "turquoise.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#10a893",
+      "dark": "#198578"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "T400",
+      "name": "palette/turquoise/400",
+      "category": "turquoise",
+      "source": "Universe Design"
+    }
+  },
+  "turquoise.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#0f8575",
+      "dark": "#1fa18f"
+    },
+    "$description": "Cyan",
+    "$extensions": {
+      "id": "T500",
+      "name": "palette/turquoise/500",
+      "category": "turquoise",
+      "source": "Universe Design"
+    }
+  },
+  "turquoise.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#067062",
+      "dark": "#1ab7a1"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "T600",
+      "name": "palette/turquoise/600",
+      "category": "turquoise",
+      "source": "Universe Design"
+    }
+  },
+  "turquoise.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#045d51",
+      "dark": "#17cfb5"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "T700",
+      "name": "palette/turquoise/700",
+      "category": "turquoise",
+      "source": "Universe Design"
+    }
+  },
+  "turquoise.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#03443b",
+      "dark": "#65e7d5"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "T800",
+      "name": "palette/turquoise/800",
+      "category": "turquoise",
+      "source": "Universe Design"
+    }
+  },
+  "turquoise.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#02312a",
+      "dark": "#b7f7ef"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "T900",
+      "name": "palette/turquoise/900",
+      "category": "turquoise",
+      "source": "Universe Design"
+    }
+  },
+  "violet.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#fceefc",
+      "dark": "#3b153b"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "V50",
+      "name": "palette/violet/50",
+      "category": "violet",
+      "source": "Universe Design"
+    }
+  },
+  "violet.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#f9e2f9",
+      "dark": "#541854"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "V100",
+      "name": "palette/violet/100",
+      "category": "violet",
+      "source": "Universe Design"
+    }
+  },
+  "violet.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#f3c4f3",
+      "dark": "#712871"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "V200",
+      "name": "palette/violet/200",
+      "category": "violet",
+      "source": "Universe Design"
+    }
+  },
+  "violet.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#e59ce5",
+      "dark": "#8b378b"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "V300",
+      "name": "palette/violet/300",
+      "category": "violet",
+      "source": "Universe Design"
+    }
+  },
+  "violet.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#de81de",
+      "dark": "#a43da4"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "V350",
+      "name": "palette/violet/350",
+      "category": "violet",
+      "source": "Universe Design"
+    }
+  },
+  "violet.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#cf5ecf",
+      "dark": "#b54ab5"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "V400",
+      "name": "palette/violet/400",
+      "category": "violet",
+      "source": "Universe Design"
+    }
+  },
+  "violet.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#bf3dbf",
+      "dark": "#d661d6"
+    },
+    "$description": "Magenta",
+    "$extensions": {
+      "id": "V500",
+      "name": "palette/violet/500",
+      "category": "violet",
+      "source": "Universe Design"
+    }
+  },
+  "violet.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#a630a6",
+      "dark": "#e17fe1"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "V600",
+      "name": "palette/violet/600",
+      "category": "violet",
+      "source": "Universe Design"
+    }
+  },
+  "violet.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#872787",
+      "dark": "#e99be9"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "V700",
+      "name": "palette/violet/700",
+      "category": "violet",
+      "source": "Universe Design"
+    }
+  },
+  "violet.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#6a116a",
+      "dark": "#f4c3f4"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "V800",
+      "name": "palette/violet/800",
+      "category": "violet",
+      "source": "Universe Design"
+    }
+  },
+  "violet.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#520052",
+      "dark": "#fcdffc"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "V900",
+      "name": "palette/violet/900",
+      "category": "violet",
+      "source": "Universe Design"
+    }
+  },
+  "wathet.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#e7f8fe",
+      "dark": "#152830"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "W50",
+      "name": "palette/wathet/50",
+      "category": "wathet",
+      "source": "Universe Design"
+    }
+  },
+  "wathet.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#caeffc",
+      "dark": "#103647"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "W100",
+      "name": "palette/wathet/100",
+      "category": "wathet",
+      "source": "Universe Design"
+    }
+  },
+  "wathet.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#97dcfc",
+      "dark": "#164359"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "W200",
+      "name": "palette/wathet/200",
+      "category": "wathet",
+      "source": "Universe Design"
+    }
+  },
+  "wathet.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#3ec3f7",
+      "dark": "#135a78"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "W300",
+      "name": "palette/wathet/300",
+      "category": "wathet",
+      "source": "Universe Design"
+    }
+  },
+  "wathet.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#25b0e7",
+      "dark": "#146c91"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "W350",
+      "name": "palette/wathet/350",
+      "category": "wathet",
+      "source": "Universe Design"
+    }
+  },
+  "wathet.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#1295ca",
+      "dark": "#1a7fab"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "W400",
+      "name": "palette/wathet/400",
+      "category": "wathet",
+      "source": "Universe Design"
+    }
+  },
+  "wathet.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#047fb0",
+      "dark": "#1099cc"
+    },
+    "$description": "Sky blue",
+    "$extensions": {
+      "id": "W500",
+      "name": "palette/wathet/500",
+      "category": "wathet",
+      "source": "Universe Design"
+    }
+  },
+  "wathet.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#076a94",
+      "dark": "#25b2e5"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "W600",
+      "name": "palette/wathet/600",
+      "category": "wathet",
+      "source": "Universe Design"
+    }
+  },
+  "wathet.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#0f587a",
+      "dark": "#51c3f0"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "W700",
+      "name": "palette/wathet/700",
+      "category": "wathet",
+      "source": "Universe Design"
+    }
+  },
+  "wathet.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#06415c",
+      "dark": "#89dffe"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "W800",
+      "name": "palette/wathet/800",
+      "category": "wathet",
+      "source": "Universe Design"
+    }
+  },
+  "wathet.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#072b3d",
+      "dark": "#c7f0ff"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "W900",
+      "name": "palette/wathet/900",
+      "category": "wathet",
+      "source": "Universe Design"
+    }
+  },
+  "yellow.50": {
+    "$type": "color",
+    "$value": {
+      "light": "#fbf4df",
+      "dark": "#30250a"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "Y50",
+      "name": "palette/yellow/50",
+      "category": "yellow",
+      "source": "Universe Design"
+    }
+  },
+  "yellow.100": {
+    "$type": "color",
+    "$value": {
+      "light": "#faedc2",
+      "dark": "#473409"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "Y100",
+      "name": "palette/yellow/100",
+      "category": "yellow",
+      "source": "Universe Design"
+    }
+  },
+  "yellow.200": {
+    "$type": "color",
+    "$value": {
+      "light": "#fcdf7e",
+      "dark": "#63470f"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "Y200",
+      "name": "palette/yellow/200",
+      "category": "yellow",
+      "source": "Universe Design"
+    }
+  },
+  "yellow.300": {
+    "$type": "color",
+    "$value": {
+      "light": "#fad355",
+      "dark": "#8a6419"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "Y300",
+      "name": "palette/yellow/300",
+      "category": "yellow",
+      "source": "Universe Design"
+    }
+  },
+  "yellow.350": {
+    "$type": "color",
+    "$value": {
+      "light": "#ffc60a",
+      "dark": "#ad7d15"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "Y350",
+      "name": "palette/yellow/350",
+      "category": "yellow",
+      "source": "Universe Design"
+    }
+  },
+  "yellow.400": {
+    "$type": "color",
+    "$value": {
+      "light": "#d99904",
+      "dark": "#d49b0b"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "Y400",
+      "name": "palette/yellow/400",
+      "category": "yellow",
+      "source": "Universe Design"
+    }
+  },
+  "yellow.500": {
+    "$type": "color",
+    "$value": {
+      "light": "#ad7a03",
+      "dark": "#f0b622"
+    },
+    "$description": "Yellow",
+    "$extensions": {
+      "id": "Y500",
+      "name": "palette/yellow/500",
+      "category": "yellow",
+      "source": "Universe Design"
+    }
+  },
+  "yellow.600": {
+    "$type": "color",
+    "$value": {
+      "light": "#865b03",
+      "dark": "#fbcb46"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "Y600",
+      "name": "palette/yellow/600",
+      "category": "yellow",
+      "source": "Universe Design"
+    }
+  },
+  "yellow.700": {
+    "$type": "color",
+    "$value": {
+      "light": "#6f4a01",
+      "dark": "#fcd456"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "Y700",
+      "name": "palette/yellow/700",
+      "category": "yellow",
+      "source": "Universe Design"
+    }
+  },
+  "yellow.800": {
+    "$type": "color",
+    "$value": {
+      "light": "#573601",
+      "dark": "#ffde75"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "Y800",
+      "name": "palette/yellow/800",
+      "category": "yellow",
+      "source": "Universe Design"
+    }
+  },
+  "yellow.900": {
+    "$type": "color",
+    "$value": {
+      "light": "#382201",
+      "dark": "#ffeaa3"
+    },
+    "$description": "",
+    "$extensions": {
+      "id": "Y900",
+      "name": "palette/yellow/900",
+      "category": "yellow",
+      "source": "Universe Design"
+    }
+  }
+}

@@ -2,6 +2,8 @@
 
 一个 Claude Code skills 聚合仓库:外部 skill 包以 git submodule 形式 vendored 在 `repo/` 下,再通过 `.claude/skills/` 的相对软链接暴露给本项目。运行 `./install.sh` 可自动初始化 submodule 并重建 `.claude/skills/`(软链接,环境不支持时自动改复制)。详见 [README.md](README.md)。
 
+> 例外:`repo/lark-design-prototype/` 来自字节内部 AgentBuddy 市场(`skills.byted.org`,非 GitHub),是唯一以**普通目录**而非 submodule vendored 的 skill,不在 `.gitmodules` 里。更新方式见 README「非 submodule 来源的 vendored skill」。
+
 ## 引用资源
 
 ### beautiful-html-templates(HTML 幻灯片模板库)
