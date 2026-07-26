@@ -62,6 +62,11 @@ seen=""
 #   repo/<sub>/<name>/SKILL.md              —— grandparent == repo(SKILL.md 在 submodule 根下一层)
 # 其余位置(如 references/ 里的 SKILL.md)忽略。
 for skillmd in $(find repo -type f -name SKILL.md | sort); do
+  # 跳过 submodule 自带的 .agents/ 示例目录(如 design.md/.agents/skills/*),
+  # 这些不是本仓要暴露的 skill,其父目录恰好叫 skills 会误命中 pack 布局。
+  case "$skillmd" in
+    */.agents/*) continue ;;
+  esac
   dir="$(dirname "$skillmd")"
   parent="$(basename "$(dirname "$dir")")"
   grandparent="$(basename "$(dirname "$(dirname "$dir")")")"

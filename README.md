@@ -18,8 +18,6 @@
 | [design.md](https://github.com/google-labs-code/design.md) | `repo/design.md` (submodule) | 引用资源(**非 skill**):Google Labs 的 DESIGN.md 设计系统规范,详见 CLAUDE.md |
 
 > 共 **77 个 skill**(前 8 个包;后 2 个是"引用资源",不进 `.claude/skills/`)。仓库根目录的 [`index.html`](index.html) 是项目介绍页,用 effective-html 的 `html` skill 生成。
->
-> ⚠️ 已知项:`design.md` 内的示例目录带有 `.agents/skills/*/SKILL.md`,当前会被 `install.sh` 额外软链出 4 个 skill(`agent-dx-cli-scale` / `ink` / `tdd` / `typed-service-contracts`),属非预期,待后续从扫描中排除,故未计入上面的总数。
 
 ## 安装(推荐用 install.sh)
 
