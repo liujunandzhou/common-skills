@@ -13,11 +13,13 @@
 | [frontend-slides](https://github.com/zarazhangrui/frontend-slides) | `repo/frontend-slides` (submodule) | 1 个 skill(frontend-slides),生成前端幻灯片 |
 | [beautiful-feishu-whiteboard](https://github.com/zarazhangrui/beautiful-feishu-whiteboard) | `repo/beautiful-feishu-whiteboard` (submodule) | 1 个 skill(beautiful-feishu-whiteboard),从 SVG 生成美观、可编辑的飞书画板 |
 | [archify](https://github.com/tt-a1i/archify) | `repo/archify` (submodule) | 1 个 skill(archify),生成架构/流程/时序/数据流图为独立 HTML |
+| [ego-lite](https://github.com/citrolabs/ego-lite) | `repo/ego-lite` (submodule) | 1 个 skill(ego-browser),给 AI Agent 用的浏览器自动化(快照/点击/填表/截图/抓取)。**需另装 macOS 版 ego lite 应用**才能用,见下 ⚠️ |
+| [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | `repo/baoyu-skills` (submodule) | 21 个 skill(baoyu-* 前缀),宝玉的内容创作工具集:文章配图/封面/信息图/漫画/幻灯片、翻译、Markdown 转 HTML、发布到公众号/微博/X、URL 转 Markdown、YouTube 字幕等 |
 | lark-design-prototype | `repo/lark-design-prototype`(AgentBuddy,**非 submodule**,见下节) | 1 个 skill(lark-design-prototype),飞书风格网页/原型生成 |
 | [beautiful-html-templates](https://github.com/zarazhangrui/beautiful-html-templates) | `repo/beautiful-html-templates` (submodule) | 引用资源(**非 skill**):34 套 HTML 幻灯片模板库,详见 CLAUDE.md |
 | [design.md](https://github.com/google-labs-code/design.md) | `repo/design.md` (submodule) | 引用资源(**非 skill**):Google Labs 的 DESIGN.md 设计系统规范,详见 CLAUDE.md |
 
-> 共 **77 个 skill**(前 8 个包;后 2 个是"引用资源",不进 `.claude/skills/`)。仓库根目录的 [`index.html`](index.html) 是项目介绍页,用 effective-html 的 `html` skill 生成。
+> 共 **99 个 skill**(前 10 个包;后 2 个是"引用资源",不进 `.claude/skills/`)。仓库根目录的 [`index.html`](index.html) 是项目介绍页,用 effective-html 的 `html` skill 生成。
 
 ## 安装(推荐用 install.sh)
 
@@ -44,6 +46,8 @@ git clone --recurse-submodules https://github.com/liujunandzhou/common-skills.gi
 ```
 
 > ⚠️ `last30days` 这个 skill 自带 Python 脚本和 API key 配置(见其目录内的 CONFIGURATION.md),链接通 ≠ 开箱即用,运行前需按其说明装依赖、配密钥。PM / HTML 类 skill 为纯 prompt,无额外依赖。
+>
+> ⚠️ `ego-browser`(ego-lite)链接通同样 ≠ 开箱即用:它依赖 **macOS 版 ego lite 应用**提供的 `ego-browser` 命令。首次用前需装应用并走一次 GUI onboarding(可选迁移 Chrome 登录态,应用会把 `ego-browser` 注册到 `~/.local/bin`)。安装脚本(仅 macOS)在 skill 目录内:`sh repo/ego-lite/skills/ego-browser/scripts/install.sh`;或从 https://lite.ego.app/ 下载。Windows/Linux 暂不支持。
 
 ## 目录结构
 

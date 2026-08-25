@@ -25,3 +25,9 @@
 [submodule "repo/design.md"]
 	path = repo/design.md
 	url = https://github.com/google-labs-code/design.md
+[submodule "repo/ego-lite"]
+	path = repo/ego-lite
+	url = https://github.com/citrolabs/ego-lite
+[submodule "repo/baoyu-skills"]
+	path = repo/baoyu-skills
+	url = https://github.com/JimLiu/baoyu-skills.git
