@@ -16,10 +16,11 @@
 | [ego-lite](https://github.com/citrolabs/ego-lite) | `repo/ego-lite` (submodule) | 1 个 skill(ego-browser),给 AI Agent 用的浏览器自动化(快照/点击/填表/截图/抓取)。**需另装 macOS 版 ego lite 应用**才能用,见下 ⚠️ |
 | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | `repo/baoyu-skills` (submodule) | 21 个 skill(baoyu-* 前缀),宝玉的内容创作工具集:文章配图/封面/信息图/漫画/幻灯片、翻译、Markdown 转 HTML、发布到公众号/微博/X、URL 转 Markdown、YouTube 字幕等 |
 | lark-design-prototype | `repo/lark-design-prototype`(AgentBuddy,**非 submodule**,见下节) | 1 个 skill(lark-design-prototype),飞书风格网页/原型生成 |
+| [humanizer-zh](https://github.com/op7418/Humanizer-zh) | `.agents/skills/humanizer-zh`(**非 submodule**,skills-lock 机制,见下节) | 1 个 skill(humanizer-zh),去除中文文本的 AI 生成痕迹 |
 | [beautiful-html-templates](https://github.com/zarazhangrui/beautiful-html-templates) | `repo/beautiful-html-templates` (submodule) | 引用资源(**非 skill**):34 套 HTML 幻灯片模板库,详见 CLAUDE.md |
 | [design.md](https://github.com/google-labs-code/design.md) | `repo/design.md` (submodule) | 引用资源(**非 skill**):Google Labs 的 DESIGN.md 设计系统规范,详见 CLAUDE.md |
 
-> 共 **99 个 skill**(前 10 个包;后 2 个是"引用资源",不进 `.claude/skills/`)。仓库根目录的 [`index.html`](index.html) 是项目介绍页,用 effective-html 的 `html` skill 生成。
+> 共 **100 个 skill**(前 11 个包;后 2 个是"引用资源",不进 `.claude/skills/`)。仓库根目录的 [`index.html`](index.html) 是项目介绍页,用 effective-html 的 `html` skill 生成。
 
 ## 安装(推荐用 install.sh)
 
@@ -106,3 +107,15 @@ tmp=$(mktemp -d) && (cd "$tmp" && npm_config_registry="https://bnpm.byted.org" \
 rm -rf repo/lark-design-prototype && cp -R "$tmp/.claude/skills/lark-design-prototype" repo/lark-design-prototype
 ./install.sh
 ```
+
+## 非 submodule 来源的 vendored skill(GitHub + skills-lock)
+
+个别 skill 从 GitHub 仓库直接取**单个** skill,而非整包 submodule。这类以**普通目录**vendored 在根目录 `.agents/skills/<name>/` 下(不进 `.gitmodules`),由根目录的 [`skills-lock.json`](skills-lock.json) 记录来源与内容哈希(`computedHash`)以便核对。`install.sh` 会同时扫描 `repo/` 和根 `.agents/skills/`,自动建软链。
+
+目前只有一个:
+
+| Skill | 来源 | 位置 |
+|---|---|---|
+| `humanizer-zh` | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh)(GitHub,非 submodule) | `.agents/skills/humanizer-zh/` |
+
+更新时从源仓库重新拉取覆盖 `.agents/skills/humanizer-zh/`,同步更新 `skills-lock.json` 里的 `computedHash`,再跑 `./install.sh`。

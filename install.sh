@@ -56,16 +56,23 @@ find "$SKILLS_DIR" -mindepth 1 -maxdepth 1 -exec rm -rf {} +
 
 count=0
 seen=""
-# 约定:收三种布局
+# 约定:收四种布局
 #   repo/<pack>/.../skills/<name>/SKILL.md  —— parent == skills(多 skill 的 pack)
 #   repo/<name>/SKILL.md                    —— parent == repo(SKILL.md 直接在 submodule 根)
 #   repo/<sub>/<name>/SKILL.md              —— grandparent == repo(SKILL.md 在 submodule 根下一层)
+#   .agents/skills/<name>/SKILL.md          —— parent == skills(skills-lock 机制的 vendored skill)
 # 其余位置(如 references/ 里的 SKILL.md)忽略。
-for skillmd in $(find repo -type f -name SKILL.md | sort); do
-  # 跳过 submodule 自带的 .agents/ 示例目录(如 design.md/.agents/skills/*),
-  # 这些不是本仓要暴露的 skill,其父目录恰好叫 skills 会误命中 pack 布局。
+# 扫描根:repo/ 之外,再加根目录 .agents/(存在才加,避免 find 报错)。
+ROOTS="repo"
+[ -d .agents ] && ROOTS="$ROOTS .agents"
+for skillmd in $(find $ROOTS -type f -name SKILL.md | sort); do
+  # 跳过 submodule 内部自带的 .agents/ 示例目录、.claude/skills/ 内部工具
+  # (如 repo/design.md/.agents/skills/*、repo/baoyu-skills/.claude/skills/release-skills/*):
+  # 这些是各上游仓库自用的 skill,父目录恰好叫 skills 会误命中 pack 布局,不该对外暴露。
+  # 注意:根目录 .agents/skills/*(无前导 /)不匹配 */.agents/*,是我们要收的。
   case "$skillmd" in
     */.agents/*) continue ;;
+    */.claude/*) continue ;;
   esac
   dir="$(dirname "$skillmd")"
   parent="$(basename "$(dirname "$dir")")"
