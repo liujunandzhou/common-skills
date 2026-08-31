@@ -17,12 +17,13 @@
 | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | `repo/baoyu-skills` (submodule) | 21 个 skill(baoyu-* 前缀),宝玉的内容创作工具集:文章配图/封面/信息图/漫画/幻灯片、翻译、Markdown 转 HTML、发布到公众号/微博/X、URL 转 Markdown、YouTube 字幕等 |
 | [impeccable](https://github.com/pbakaus/impeccable) | `repo/impeccable` (submodule) | 1 个 skill(impeccable),给 AI coding agent 的前端设计指导:23 个子命令(init/audit/critique/polish/animate...)+ 59 条确定性检测规则。**完整检测需 `node_modules`**,见下 ⚠️ |
 | [taste-skill](https://github.com/Leonxlnx/taste-skill) | `repo/taste-skill` (submodule) | 13 个 skill,anti-slop 前端设计工具集:taste-skill / taste-skill-v1(去模板味前端)、brandkit(品牌图)、brutalist/minimalist/soft/redesign 等风格、imagegen-frontend-web/mobile、image-to-code、gpt-tasteskill、stitch-skill、output-skill |
+| [ponytail](https://github.com/DietrichGebert/ponytail) | `repo/ponytail` (submodule) | 6 个 skill(ponytail / -review / -audit / -debt / -gain / -help),强制"最小必要代码"、反过度工程(七级决策阶梯)。**上游是完整 plugin**,本仓库只暴露 `skills/` 下 6 个 skill,不接入其 hooks / 命令 / MCP,见下 ⚠️ |
 | lark-design-prototype | `repo/lark-design-prototype`(AgentBuddy,**非 submodule**,见下节) | 1 个 skill(lark-design-prototype),飞书风格网页/原型生成 |
 | [humanizer-zh](https://github.com/op7418/Humanizer-zh) | `.agents/skills/humanizer-zh`(**非 submodule**,skills-lock 机制,见下节) | 1 个 skill(humanizer-zh),去除中文文本的 AI 生成痕迹 |
 | [beautiful-html-templates](https://github.com/zarazhangrui/beautiful-html-templates) | `repo/beautiful-html-templates` (submodule) | 引用资源(**非 skill**):34 套 HTML 幻灯片模板库,详见 CLAUDE.md |
 | [design.md](https://github.com/google-labs-code/design.md) | `repo/design.md` (submodule) | 引用资源(**非 skill**):Google Labs 的 DESIGN.md 设计系统规范,详见 CLAUDE.md |
 
-> 共 **114 个 skill**(前 13 个包;后 2 个是"引用资源",不进 `.claude/skills/`)。仓库根目录的 [`index.html`](index.html) 是项目介绍页,用 effective-html 的 `html` skill 生成。
+> 共 **120 个 skill**(前 14 个包;后 2 个是"引用资源",不进 `.claude/skills/`)。仓库根目录的 [`index.html`](index.html) 是项目介绍页,用 effective-html 的 `html` skill 生成。
 
 ## 安装(推荐用 install.sh)
 
@@ -55,6 +56,8 @@ git clone --recurse-submodules https://github.com/liujunandzhou/common-skills.gi
 > ⚠️ `impeccable` 的纯 prompt 指导开箱即用,但它内置的 **59 条确定性检测脚本**(`detect.mjs` / `audit` / `live` 浏览器迭代等)依赖 `htmlparser2`、`css-select`、`css-tree`、`domutils` 等 node 包。未装依赖时 `detect.mjs` 会降级为正则匹配(**漏报**,只报字体一类)。要完整检测,在 `repo/impeccable/` 里跑一次 `bun install`(或 `npm install`);`node_modules/` 已被 submodule 的 `.gitignore` 忽略,不会误提交。
 
 > ⚠️ `taste-skill` 一包提供 **13 个 skill**,skill 目录名与 SKILL.md 里的 `name:` 不同(如目录 `taste-skill` → `name: design-taste-frontend`、`brutalist-skill` → `industrial-brutalist-ui`)。`.claude/skills/` 下按**目录名**软链,Claude Code 触发时按 **`name:`** 识别,二者都在。全为纯 prompt,无额外依赖。
+
+> ⚠️ `ponytail` 上游是一个**完整 plugin**(带 `hooks/` 生命周期钩子、`commands/` 斜杠命令、`ponytail-mcp/` MCP、多工具 plugin 清单)。本仓库只走 `.claude/skills/` 软链机制,因此**仅暴露 `repo/ponytail/skills/` 下的 6 个 skill**(纯 prompt,可用 Skill 工具触发,含 review/audit/debt/gain/help),**不接入其 hooks 自动强制、斜杠命令与 MCP**。若要钩子级自动强制"最小代码",需按上游 README 用 `/plugin install ponytail@ponytail` 单独装插件。
 
 ## 目录结构
 

@@ -37,3 +37,6 @@
 [submodule "repo/impeccable"]
 	path = repo/impeccable
 	url = https://github.com/pbakaus/impeccable
+[submodule "repo/ponytail"]
+	path = repo/ponytail
+	url = https://github.com/DietrichGebert/ponytail
