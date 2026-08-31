@@ -31,3 +31,9 @@
 [submodule "repo/baoyu-skills"]
 	path = repo/baoyu-skills
 	url = https://github.com/JimLiu/baoyu-skills.git
+[submodule "repo/taste-skill"]
+	path = repo/taste-skill
+	url = https://github.com/Leonxlnx/taste-skill
+[submodule "repo/impeccable"]
+	path = repo/impeccable
+	url = https://github.com/pbakaus/impeccable

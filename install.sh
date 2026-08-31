@@ -66,13 +66,18 @@ seen=""
 ROOTS="repo"
 [ -d .agents ] && ROOTS="$ROOTS .agents"
 for skillmd in $(find $ROOTS -type f -name SKILL.md | sort); do
-  # 跳过 submodule 内部自带的 .agents/ 示例目录、.claude/skills/ 内部工具
-  # (如 repo/design.md/.agents/skills/*、repo/baoyu-skills/.claude/skills/release-skills/*):
-  # 这些是各上游仓库自用的 skill,父目录恰好叫 skills 会误命中 pack 布局,不该对外暴露。
-  # 注意:根目录 .agents/skills/*(无前导 /)不匹配 */.agents/*,是我们要收的。
+  # 跳过 submodule 内部任意隐藏目录(以点开头的目录)里的 SKILL.md:
+  #   - .agents/、.claude/ 是上游自用的 skill(如 repo/design.md/.agents/skills/*、
+  #     repo/baoyu-skills/.claude/skills/release-skills/*);
+  #   - .cursor/、.opencode/、.gemini/、.agent/、.github/ 等是各 AI 工具的同一 skill 副本
+  #     (如 repo/impeccable/ 为 17 种工具各放了一份 impeccable/SKILL.md),只暴露非隐藏的
+  #     规范位置(如 repo/impeccable/plugin/skills/impeccable/)即可,避免重复与随机选中隐藏副本。
+  # 注意:根目录 .agents/skills/*(路径无前导 /,不含 "/." 子串)不匹配 */.*/*,仍会被收。
+  # 另外跳过 node_modules(非隐藏目录,如 repo/impeccable/ 装依赖后,
+  # playwright-core 等三方包会自带 SKILL.md,不该对外暴露)。
   case "$skillmd" in
-    */.agents/*) continue ;;
-    */.claude/*) continue ;;
+    */.*/*) continue ;;
+    */node_modules/*) continue ;;
   esac
   dir="$(dirname "$skillmd")"
   parent="$(basename "$(dirname "$dir")")"
