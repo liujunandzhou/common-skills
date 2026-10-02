@@ -1,3 +1,7 @@
+> ⚠️ **已归档(2026-10)**:本仓的 skill 已全部合并进
+> **[`dev-skills`](https://github.com/liujunandzhou/dev-skills)**(teamai-cli 团队仓,按 tag 订阅分发)。
+> 本仓不再维护,仅作历史存档。新增/使用 skill 请前往 dev-skills。
+
 # common-skills
 
 一个 Claude Code skills 聚合仓库:把外部 skill 包以 **git submodule** 方式 vendored 进来,再通过 `.claude/skills/` 下的**相对软链接**暴露给当前项目的 Claude Code 使用。submodule 升级时,软链接自动指向新版本,无需重新安装。
